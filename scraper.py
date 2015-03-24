@@ -1,25 +1,42 @@
-# This is a template for a Python scraper on Morph (https://morph.io)
-# including some code snippets below that you should find helpful
+# import lxml.html
+import bs4
+import urllib2
 
-import scraperwiki
-import lxml.html
-#
-# # Read in a page
-html = scraperwiki.scrape("https://www1.dhcr.state.ny.us/LocalHousingOrgLists/CommBased.aspx?type=rent")
-#
-# # Find something on the page using css selectors
-root = lxml.html.fromstring(html)
-table = root.cssselect("table[align='center']")
+# the table is in an iframe, here is the iframe's url:
+table_url = "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/CommBased.aspx?type=rent"
 
-print table
-#
-# # Write out to the sqlite database using scraperwiki library
-# scraperwiki.sqlite.save(unique_keys=['name'], data={"name": "susan", "occupation": "software developer"})
-#
-# # An arbitrary query against the database
-# scraperwiki.sql.select("* from data where 'name'='peter'")
+#soup = bs4.BeautifulSoup(urllib2.urlopen(table_url).read())
+soup = bs4.BeautifulSoup(open("html/CommBased.aspx.html"))
 
-# You don't have to do things with the ScraperWiki and lxml libraries. You can use whatever libraries are installed
-# on Morph for Python (https://github.com/openaustralia/morph-docker-python/blob/master/pip_requirements.txt) and all that matters
-# is that your final data is written to an Sqlite database called data.sqlite in the current working directory which
-# has at least a table called data.
+org_list = []
+
+def main():
+  """
+  iterate over html table and pull out county, org name & org service area
+  """
+
+  for row in soup('table')[0].findAll('tr'):
+    org_dict = {}
+    td = row('td')
+
+    if len(td) == 1:
+      region = ''.join(td[0].b.find(text=True))
+      print region
+
+    if len(td) == 2:
+      org_dict["name"] = ''.join(td[0].a.find(text=True))
+      org_dict["service_area"] = ''.join(td[1].find(text=True))
+      org_dict["region"] = region
+    
+    print org_dict
+
+if __name__ == "__main__":
+  main()
+
+#### TESTS #####
+## successfully finds one org name:
+# print soup('table')[0].findAll('tr')[3].findAll('td')[0].a.string
+## successfully finds one org service area:
+# print soup('table')[0].findAll('tr')[3].findAll('td')[1].string
+## prints region header
+# print soup('table')[0].findAll('tr')[1].findAll('td')[0].b.string
