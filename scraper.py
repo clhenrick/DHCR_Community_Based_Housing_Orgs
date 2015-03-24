@@ -20,13 +20,12 @@ def main():
     td = row('td')
 
     if len(td) == 1:
-      region = ''.join(td[0].b.find(text=True))
-      print region
+      county = ''.join(td[0].b.find(text=True))      
 
     if len(td) == 2:
       org_dict["name"] = ''.join(td[0].a.find(text=True))
       org_dict["service_area"] = ''.join(td[1].find(text=True))
-      org_dict["region"] = region
+      org_dict["county"] = county
     
     print org_dict
 
