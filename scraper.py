@@ -8,39 +8,32 @@ from multiprocessing import Pool
 # https://www1.dhcr.state.ny.us/LocalHousingOrgLists/CommBased.aspx?type=rent
 
 BASE_URL = "https://www1.dhcr.state.ny.us/LocalHousingOrgLists"
-
-# table_url = "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/CommBased.aspx?type=rent"
+ORG_DATA = []
+ORG_LIST = []
 
 # soup = bs4.BeautifulSoup(urllib2.urlopen(table_url).read())
 # soup = bs4.BeautifulSoup(open("html/CommBased.aspx.html"))
-org_list = []
-org_data = []
-headers = {
-  'User-Agent' : 'Mozilla/5.0',
-  'Host' : 'www1.dhcr.state.ny.us',
-  'DNT' : '1',
-  'Connection' : 'keep-alive',
-  'Cache-control' : 'max-age=0',
-  'Accept-Language' : 'en-US',
-  'Accept-Encoding' : 'gzip',
-  'Accept' : 'text/html',
-  'Cookie' : 'ASP.NET_SessionId=bttvatye1qdzah34nfby2d45'
-  }
 
 def make_soup(content):
+  """
+  convert content from a requests response to be parsable by BeautifulSoup
+  """
   soup = bs4.BeautifulSoup(content)
   return soup
 
 def make_request(url):
   """
-  perform a get request to the dhcr site
+  perform a get request for a given url
   """
-  r = requests.get(url, headers=headers)
-  
+  r = requests.get(url) 
   if r.status_code == requests.codes.ok:
     return r.content
 
 def get_table_data():
+  """
+  perform a get request to the community org data table page
+  """
+  # table_url = "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/CommBased.aspx?type=rent"
   url = BASE_URL + "/CommBased.aspx"
   content = make_request(url)
 
@@ -61,7 +54,7 @@ def get_org_link_data():
     content = make_request(BASE_URL + "/Profile.aspx?applid=" + count)
     
     if content is not None:
-      org_data.append(content)
+      ORG_DATA.append(content)
       print "org data: %s \n count: %s" % (content, count)
       print "count: %s" % count
     
@@ -79,8 +72,6 @@ def strain_soup(soup):
   ### issue seems to do with python on my mac?
   #
 
-  # print soup
-
   for row in soup('table')[0].findAll('tr'):
     org_dict = {}
     td = row('td')
@@ -93,7 +84,7 @@ def strain_soup(soup):
       org_dict["service_area"] = ''.join(td[1].find(text=True))
       org_dict["county"] = county
       
-    org_list.append(org_dict)
+    ORG_LIST.append(org_dict)
     print org_dict
 
 
