@@ -54,9 +54,15 @@ def get_org_link_data():
     content = make_request(BASE_URL + "/Profile.aspx?applid=" + count)
     
     if content is not None:
-      soup = make_soup(content)
-      title = soup('h2')[0].find(text=True)
-      contact = soup("span[id='contactLabel']")[0].find(text=True)
+      soup = make_soup(content)      
+      title = soup('h2')[0].find(text=True) # Org Title
+      info = soup.find(id="commBasedPanel") # div containing the org's info
+      org_type = info.contents[1].string
+      service_area = info.contents[4].string
+      contact = info.contents[8].string
+      phone = info.contents[12].string
+      email = info.contents[17].string
+      # about = 
       # phone = soup()
 
       # print "org data: %s \n count: %s" % (content, count)
