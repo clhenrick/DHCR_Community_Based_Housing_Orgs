@@ -62,13 +62,14 @@ def get_org_link_data():
       contact = info.contents[8].string
       phone = info.contents[12].string
       email = info.contents[17].string
-      # about = 
-      # phone = soup()
-
-      # print "org data: %s \n count: %s" % (content, count)
+      about = info.contents[-2].string + ' ' + info.contents[-1].find(text=True)
+      
       print "count: %s" % count
       print "title: %s" % title
       print "contact: %s" % contact
+      print "phone: %s" % phone
+      print "email: %s" % email
+      print "about: %s" %about
     
     count = int(count)
     count += 1 
