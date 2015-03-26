@@ -56,11 +56,13 @@ def get_org_link_data():
     if content is not None:
       soup = make_soup(content)
       title = soup('h2')[0].find(text=True)
-      
+      contact = soup("span[id='contactLabel']")[0].find(text=True)
+      # phone = soup()
 
       # print "org data: %s \n count: %s" % (content, count)
       print "count: %s" % count
-
+      print "title: %s" % title
+      print "contact: %s" % contact
     
     count = int(count)
     count += 1 
