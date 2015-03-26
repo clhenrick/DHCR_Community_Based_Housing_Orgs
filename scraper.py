@@ -62,7 +62,11 @@ def get_org_link_data():
       contact = info.contents[8].string
       phone = info.contents[12].string
       email = info.contents[17].string
-      about = info.contents[-2].string + ' ' + info.contents[-1].find(text=True)
+      
+      if info.contents[-2] is not None:
+        about = info.contents[-2].find(text=True) + ' ' + info.contents[-1].find(text=True)  
+      else:
+        about = info.contents[-1].find(text=True)
       
       print "count: %s" % count
       print "title: %s" % title
