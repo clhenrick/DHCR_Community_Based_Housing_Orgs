@@ -1,8 +1,8 @@
 # import lxml.html
 import bs4
 import requests
+import json
 from time import sleep
-from multiprocessing import Pool
 
 ### Note: the data table is in an iframe on the HCR's site, here is the iframe's url:
 # https://www1.dhcr.state.ny.us/LocalHousingOrgLists/CommBased.aspx?type=rent
@@ -28,6 +28,16 @@ def make_request(url):
   r = requests.get(url) 
   if r.status_code == requests.codes.ok:
     return r.content
+
+def writeJSON(name, data):
+  """
+  writes org data to JSON
+  """
+  json_data = {
+   name : data
+  }
+  with open('data.json', 'w') as outfile:
+    json.dump(json_data, outfile)
 
 def get_table_data():
   """
@@ -76,12 +86,25 @@ def get_org_link_data():
         print "phone: %s" % phone
         print "email: %s" % email
         print "about: %s" %about
+
+        org_data_dict = {
+          "title" : title,
+          "type" : org_type,
+          "service area" : service_area,
+          "contact person" : contact,
+          "phone no." : phone,
+          "email" : email,
+          "description" : about
+        }
+
+        ORG_DATA.append(org_data_dict)
     
     print "count: %s" % count
     count = int(count)
     count += 1 
     sleep(1) # keep the server happy :)
-
+  
+  if count == count_finish: writeJSON('HCR Community Based Housing Orgs', ORG_DATA)
 
 def strain_soup(soup):
   """
