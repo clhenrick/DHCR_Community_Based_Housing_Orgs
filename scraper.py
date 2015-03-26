@@ -56,17 +56,21 @@ def get_org_link_data():
     if content is not None:
       soup = make_soup(content)      
       title = soup('h2')[0].find(text=True) # Org Title
-      info = soup.find(id="commBasedPanel") # div containing the org's info
-      org_type = info.contents[1].string
-      service_area = info.contents[4].string
-      contact = info.contents[8].string
-      phone = info.contents[12].string
-      email = info.contents[17].string
+      info = soup.find(id="commBasedPanel").contents # array from div containing the org's info
+      org_type = info[1].string
+      service_area = info[4].string
+      contact = info[8].string
+      phone = info[12].string
+      email = info[17].string
       
-      if info.contents[-2].string is not None:
-        about = info.contents[-2].string + ' ' + info.contents[-1].find(text=True)  
+      if info[-2] is bs4.element.NavigableString and info[-1] is bs4.element.Tag:
+        about = info[-2].string + ' ' + info[-1].find(text=True)  
+      elif info[-1] is bs4.element.Tag:
+        about = info[-1].find(text=True)
+      elif info[-1] is bs4.element.NavigableString:
+        about = info[-1].string
       else:
-        about = info.contents[-1].find(text=True)
+        about = 'null'
       
       print "count: %s" % count
       print "title: %s" % title
