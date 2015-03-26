@@ -55,7 +55,7 @@ def get_org_link_data():
     
     if content is not None:
       soup = make_soup(content)
-      title = soup('h2').find(text=True)
+      title = soup('h2')[0].find(text=True)
       
 
       # print "org data: %s \n count: %s" % (content, count)
