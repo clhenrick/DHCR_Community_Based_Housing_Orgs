@@ -75,6 +75,7 @@ def get_org_link_data():
       print "email: %s" % email
       print "about: %s" %about
     
+    print "count: %s" % count
     count = int(count)
     count += 1 
     sleep(1) # keep the server happy :)
