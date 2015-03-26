@@ -54,34 +54,28 @@ def get_org_link_data():
     content = make_request(BASE_URL + "/Profile.aspx?applid=" + count)
     
     if content is not None:
-      soup = make_soup(content)      
-      title = soup('h2')[0].find(text=True) # Org Title
-      info = soup.find(id="commBasedPanel").contents # array from div containing the org's info
-      org_type = info[1].string.strip()
-      service_area = info[4].string.strip()
-      contact = info[8].string.strip()
-      phone = info[12].string.strip()
-      email = info[17].string.strip()
-      about = ''
-      for s in soup.find(id="profileLabel").next_siblings:
-        if s.string is not None:
-          about += s.string.strip()
+      soup = make_soup(content)    
 
-      # if info[-2] is bs4.element.NavigableString and info[-1] is bs4.element.Tag:
-      #   about = info[-2].string + ' ' + info[-1].find(text=True)  
-      # elif info[-1] is bs4.element.Tag:
-      #   about = info[-1].find(text=True)
-      # elif info[-1] is bs4.element.NavigableString:
-      #   about = info[-1].string
-      # else:
-      #   about = 'null'
-      
-      print "count: %s" % count
-      print "title: %s" % title
-      print "contact: %s" % contact
-      print "phone: %s" % phone
-      print "email: %s" % email
-      print "about: %s" %about
+      if soup.find(id="commBasedPanel") is not None:
+        title = soup('h2')[0].find(text=True) # Org Title
+        info = soup.find(id="commBasedPanel").contents # array from div containing the org's info
+        org_type = info[1].string.strip()
+        service_area = info[4].string.strip()
+        contact = info[8].string.strip()
+        phone = info[12].string.strip()
+        email = info[17].string.strip()
+        about = ''
+
+        for s in soup.find(id="profileLabel").next_siblings:
+          if s.string is not None:
+            about += s.string.strip()
+        
+        print "count: %s" % count
+        print "title: %s" % title
+        print "contact: %s" % contact
+        print "phone: %s" % phone
+        print "email: %s" % email
+        print "about: %s" %about
     
     print "count: %s" % count
     count = int(count)
