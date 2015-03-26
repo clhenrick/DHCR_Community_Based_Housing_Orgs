@@ -54,9 +54,13 @@ def get_org_link_data():
     content = make_request(BASE_URL + "/Profile.aspx?applid=" + count)
     
     if content is not None:
-      ORG_DATA.append(content)
-      print "org data: %s \n count: %s" % (content, count)
+      soup = make_soup(content)
+      title = soup('h2').find(text=True)
+      
+
+      # print "org data: %s \n count: %s" % (content, count)
       print "count: %s" % count
+
     
     count = int(count)
     count += 1 
@@ -96,7 +100,7 @@ def main():
   # soup = bs4.BeautifulSoup(make_request())
   # soup = bs4.BeautifulSoup(open("html/CommBased.aspx.html"))
   # strain_soup(soup)
-  get_table_data()
+  #   get_table_data()
   get_org_link_data()
 
 
