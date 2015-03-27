@@ -73,7 +73,10 @@ def get_org_link_data():
     
     if content is not None:
       soup = make_soup(content)
-      data = strain_org_deets(soup)
+
+      if 'Runtime Error' not in soup.title.string
+      
+      data = strain_org_deets(soup, count)
       ORG_DATA.append(data)
     
     print "count: %s" % count
@@ -89,10 +92,11 @@ def check_length(string):
   else:
     return 'not listed'
 
-def strain_org_deets(soup):
+def strain_org_deets(soup, applid):
   """
   parse out data from org links in data table
   """
+  hcr_data_url = BASE_URL + "/Profile.aspx?applid=" + applid
   title = soup('h2')[0].find(text=True).title() # Org Title
   address_part1 = soup('h2')[0].next_sibling
   address_part2 = address_part1.next_sibling # line break
@@ -124,6 +128,7 @@ def strain_org_deets(soup):
         about += s.string.strip()
     
     print "\n"
+    print "hcr data url %s" % hcr_data_url
     print "title: %s" % title
     print "address: %s" % address_comp
     print "url: %s" % org_url
@@ -134,6 +139,7 @@ def strain_org_deets(soup):
     print "\n"
 
     org_data_dict = {
+      "hcr_data_url" : hcr_data_url,
       "title" : title,
       "address" : address_comp,
       "website url" : org_url,
@@ -143,7 +149,7 @@ def strain_org_deets(soup):
       "email" : email,
       "description" : about
     }
-
+    
     return org_data_dict
 
 
