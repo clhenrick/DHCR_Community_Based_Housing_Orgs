@@ -129,7 +129,7 @@ def strain_org_deets(soup):
     print "url: %s" % org_url
     print "contact: %s" % contact
     print "phone: %s" % phone
-    print "email: %s" % email
+    # print "email: %s" % email
     print "about: %s" %about
     print "\n"
 
