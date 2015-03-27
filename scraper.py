@@ -108,7 +108,8 @@ def strain_org_deets(soup):
     service_area = check_length(soup.find(id="serviceAreaLabel").next_sibling.string.strip())
     contact = check_length(soup.find(id="contactLabel").next_sibling.string.strip())
     phone = check_length(soup.find(id="phoneLabel").next_sibling.string.strip())
-    email = check_length(soup.find(id="emailLabel").next_sibling.string.strip())
+    email_pre = soup.find(id="emailLabel").next_sibling
+    email = check_length(email_pre.next_sibling.string.strip())
     about = ''
 
     for s in soup.find(id="profileLabel").next_siblings:
