@@ -4,6 +4,11 @@ import requests
 import json
 from time import sleep
 
+### TO DO (for org data):
+## - Get Address of Org
+## - Get web url if present
+## - skip info if  None such as this case https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=79
+
 ### Note: the data table is in an iframe on the HCR's site, here is the iframe's url:
 # https://www1.dhcr.state.ny.us/LocalHousingOrgLists/CommBased.aspx?type=rent
 
@@ -31,7 +36,7 @@ def make_request(url):
 
 def writeJSON(name, data):
   """
-  writes org data to JSON
+  writes org data to JSON out file
   """
   json_data = {
    name : data
@@ -64,11 +69,34 @@ def get_org_link_data():
     content = make_request(BASE_URL + "/Profile.aspx?applid=" + count)
     
     if content is not None:
-      soup = make_soup(content)    
+      soup = make_soup(content)
+      data = strain_org_deets(soup)
+      ORG_DATA.append(data)
+    
+    print "count: %s" % count
+    count = int(count)
+    count += 1 
+    sleep(1) # keep the server happy :)
+  
+  if count == count_finish: writeJSON('HCR Community Based Housing Orgs', ORG_DATA)
 
-      if soup.find(id="commBasedPanel") is not None:
-        title = soup('h2')[0].find(text=True) # Org Title
-        info = soup.find(id="commBasedPanel").contents # array from div containing the org's info
+def strain_org_deets(soup):
+  """
+  parse out data from org links in data table
+  """
+  title = soup('h2')[0].find(text=True).title() # Org Title
+  address_part1 = soup('h2')[0].next_sibling
+  address_part2 = address_part1.next_sibling # line break
+  address_part3 = address_part2.next_sibling
+  address_comp = address_part1 + ' ' + address_part3
+
+  web_urls = soup.find_all("a", class_="external")
+  org_url = web_urls[0].string
+  
+  if soup.find(id="commBasedPanel") is not None:      
+    info = soup.find(id="commBasedPanel").contents # array from div containing the org's info
+    
+      if info.count(None) != len(info):
         org_type = info[1].string.strip()
         service_area = info[4].string.strip()
         contact = info[8].string.strip()
@@ -79,32 +107,32 @@ def get_org_link_data():
         for s in soup.find(id="profileLabel").next_siblings:
           if s.string is not None:
             about += s.string.strip()
-        
-        print "count: %s" % count
-        print "title: %s" % title
-        print "contact: %s" % contact
-        print "phone: %s" % phone
-        print "email: %s" % email
-        print "about: %s" %about
-
-        org_data_dict = {
-          "title" : title,
-          "type" : org_type,
-          "service area" : service_area,
-          "contact person" : contact,
-          "phone no." : phone,
-          "email" : email,
-          "description" : about
-        }
-
-        ORG_DATA.append(org_data_dict)
     
+    print "\n"
     print "count: %s" % count
-    count = int(count)
-    count += 1 
-    sleep(1) # keep the server happy :)
-  
-  if count == count_finish: writeJSON('HCR Community Based Housing Orgs', ORG_DATA)
+    print "title: %s" % title
+    print "address: %s" % address_comp
+    print "url: %s" % org_url
+    print "contact: %s" % contact
+    print "phone: %s" % phone
+    print "email: %s" % email
+    print "about: %s" %about
+    print "\n"
+
+    org_data_dict = {
+      "title" : title,
+      "address" : address_comp,
+      "website url" : org_url,
+      "type" : org_type,
+      "service area" : service_area,
+      "contact person" : contact,
+      "phone no." : phone,
+      "email" : email,
+      "description" : about
+    }
+
+    return org_data_dict
+
 
 def strain_soup(soup):
   """
