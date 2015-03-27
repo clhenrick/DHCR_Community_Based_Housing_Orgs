@@ -80,6 +80,12 @@ def get_org_link_data():
   
   if count == count_finish: writeJSON('HCR Community Based Housing Orgs', ORG_DATA)
 
+def check_length(string):
+  if len(string) > 0:
+    return string
+  else:
+    return 'not listed'
+
 def strain_org_deets(soup):
   """
   parse out data from org links in data table
@@ -98,18 +104,16 @@ def strain_org_deets(soup):
   
   if soup.find(id="commBasedPanel") is not None:      
     info = soup.find(id="commBasedPanel").contents # array from div containing the org's info
-        
-    if info.count(None) != len(info):
-      org_type = info[1].string.strip()
-      service_area = info[4].string.strip()
-      contact = info[8].string.strip()
-      phone = info[12].string.strip()
-      email = info[17].string.strip()
-      about = ''
+    # service_area = info[4].string.strip()
+    service_area = check_length(soup.find(id="serviceAreaLabel").next_sibling.string.strip())
+    contact = check_length(soup.find(id="contactLabel").next_sibling.string.strip())
+    phone = check_length(soup.find(id="phoneLabel").next_sibling.string.strip())
+    email = check_length(soup.find(id="emailLabel").next_sibling.string.strip())
+    about = ''
 
-      for s in soup.find(id="profileLabel").next_siblings:
-        if s.string is not None:
-          about += s.string.strip()
+    for s in soup.find(id="profileLabel").next_siblings:
+      if s.string is not None:
+        about += s.string.strip()
     
     print "\n"
     print "title: %s" % title
