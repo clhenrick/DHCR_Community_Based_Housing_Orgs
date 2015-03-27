@@ -64,7 +64,10 @@ def get_org_link_data():
   count_finish = 50
   
   while True:
-    if count > count_finish : break
+    if count > count_finish: 
+      writeJSON('HCR Community Based Housing Orgs', ORG_DATA)
+      break
+    
     count = str(count)    
     content = make_request(BASE_URL + "/Profile.aspx?applid=" + count)
     
@@ -78,7 +81,7 @@ def get_org_link_data():
     count += 1 
     sleep(1) # keep the server happy :)
   
-  if count == count_finish: writeJSON('HCR Community Based Housing Orgs', ORG_DATA)
+  # if count == count_finish: writeJSON('HCR Community Based Housing Orgs', ORG_DATA)
 
 def check_length(string):
   if len(string) > 0:
