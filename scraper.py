@@ -209,7 +209,7 @@ def main():
   do everything
   """
   get_table_data_from_file()
-  # get_org_link_data()
+  get_org_link_data()
 
 
 if __name__ == "__main__":
