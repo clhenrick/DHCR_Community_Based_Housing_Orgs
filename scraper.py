@@ -113,6 +113,7 @@ def strain_org_deets(soup):
     phone = check_length(soup.find(id="phoneLabel").next_sibling.string.strip())
     email_pre = soup.find(id="emailLabel").next_sibling
     print "email_pre: %s type: %s" % (email_pre, type(email_pre))
+    print "email_pre.next_sibling: %" email_pre.next_sibling
     # if email_pre.next_sibling is not None:
     #   email = check_length(email_pre.next_sibling.string.strip())
     # else:
@@ -129,7 +130,7 @@ def strain_org_deets(soup):
     print "url: %s" % org_url
     print "contact: %s" % contact
     print "phone: %s" % phone
-    # print "email: %s" % email
+    print "email: %s" % email_pre
     print "about: %s" %about
     print "\n"
 
@@ -140,7 +141,7 @@ def strain_org_deets(soup):
       "service area" : service_area,
       "contact person" : contact,
       "phone no." : phone,
-      "email" : email,
+      # "email" : email,
       "description" : about
     }
 
