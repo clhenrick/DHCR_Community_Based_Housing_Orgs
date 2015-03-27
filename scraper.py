@@ -181,7 +181,7 @@ def strain_soup(soup):
 
   while True:
     if count > t_length: 
-      writeJSON('HCR List of Community Based Housing Orgs', ORG_LIST, 'hcr_housing_org_list.json')
+      writeJSON('HCR List of Community Based Housing Orgs', ORG_LIST, 'hcr_comm_housing_org_list.json')
       break
 
     for row in soup('table')[0].findAll('tr'):
