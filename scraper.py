@@ -1,13 +1,7 @@
-# import lxml.html
 import bs4
 import requests
 import json
 from time import sleep
-
-### TO DO (for org data):
-## - Get Address of Org
-## - Get web url if present
-## - skip info if  None such as this case https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=79
 
 ### Note: the data table is in an iframe on the HCR's site, here is the iframe's url:
 # https://www1.dhcr.state.ny.us/LocalHousingOrgLists/CommBased.aspx?type=rent
@@ -15,9 +9,6 @@ from time import sleep
 BASE_URL = "https://www1.dhcr.state.ny.us/LocalHousingOrgLists"
 ORG_DATA = []
 ORG_LIST = []
-
-# soup = bs4.BeautifulSoup(urllib2.urlopen(table_url).read())
-# soup = bs4.BeautifulSoup(open("html/CommBased.aspx.html"))
 
 def make_soup(content):
   """
@@ -82,8 +73,6 @@ def get_org_link_data():
     count = int(count)
     count += 1 
     sleep(1) # keep the server happy :)
-  
-  # if count == count_finish: writeJSON('HCR Community Based Housing Orgs', ORG_DATA)
 
 def check_length(string):
   if len(string) > 0:
@@ -110,7 +99,6 @@ def strain_org_deets(soup, applid):
   
   if soup.find(id="commBasedPanel") is not None:      
     info = soup.find(id="commBasedPanel").contents # array from div containing the org's info
-    # service_area = info[4].string.strip()
     service_area = check_length(soup.find(id="serviceAreaLabel").next_sibling.string.strip())
     contact = check_length(soup.find(id="contactLabel").next_sibling.string.strip())
     phone = check_length(soup.find(id="phoneLabel").next_sibling.string.strip())
@@ -127,7 +115,7 @@ def strain_org_deets(soup, applid):
         about += s.string.strip()
     
     print "\n"
-    print "hcr data url %s" % hcr_data_url
+    print "hcr data url: %s" % hcr_data_url
     print "title: %s" % title
     print "address: %s" % address_comp
     print "url: %s" % org_url
@@ -181,22 +169,9 @@ def main():
   """
   do everything
   """
-  # soup = bs4.BeautifulSoup(get_org_link_data())
-  # soup = bs4.BeautifulSoup(make_request())
-  # soup = bs4.BeautifulSoup(open("html/CommBased.aspx.html"))
-  # strain_soup(soup)
   #   get_table_data()
   get_org_link_data()
 
 
 if __name__ == "__main__":
   main()
-
-
-#### TESTS #####
-## successfully finds one org name:
-# print soup('table')[0].findAll('tr')[3].findAll('td')[0].a.string
-## successfully finds one org service area:
-# print soup('table')[0].findAll('tr')[3].findAll('td')[1].string
-## prints region header
-# print soup('table')[0].findAll('tr')[1].findAll('td')[0].b.string
