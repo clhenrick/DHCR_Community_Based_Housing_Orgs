@@ -95,18 +95,18 @@ def strain_org_deets(soup):
   
   if soup.find(id="commBasedPanel") is not None:      
     info = soup.find(id="commBasedPanel").contents # array from div containing the org's info
-    
-      if info.count(None) != len(info):
-        org_type = info[1].string.strip()
-        service_area = info[4].string.strip()
-        contact = info[8].string.strip()
-        phone = info[12].string.strip()
-        email = info[17].string.strip()
-        about = ''
+        
+    if info.count(None) != len(info):
+      org_type = info[1].string.strip()
+      service_area = info[4].string.strip()
+      contact = info[8].string.strip()
+      phone = info[12].string.strip()
+      email = info[17].string.strip()
+      about = ''
 
-        for s in soup.find(id="profileLabel").next_siblings:
-          if s.string is not None:
-            about += s.string.strip()
+      for s in soup.find(id="profileLabel").next_siblings:
+        if s.string is not None:
+          about += s.string.strip()
     
     print "\n"
     print "count: %s" % count
