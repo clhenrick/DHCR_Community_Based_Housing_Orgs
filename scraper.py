@@ -75,10 +75,31 @@ def get_org_link_data():
     sleep(1) # keep the server happy :)
 
 def check_length(string):
+  """
+  Check a values length to determine whether to keep it or not
+  """
   if len(string) > 0:
     return string
   else:
     return 'not listed'
+
+def find_address(bs4_tag):
+  """
+  grab each line after the h2 org title and before the div#commBasedPanel
+  """
+  address = []
+  for s in bs4_tag.next_siblings:
+    if type(s) == bs4.element.NavigableString:
+      address.append(s.string.strip())
+    elif type(s) == bs4.element.Tag:
+      if s.get('id') is not None:
+        return ' '.join(address).strip()    
+      else:
+        continue
+    elif type(s) == None:
+      continue
+    else:
+      return
 
 def strain_org_deets(soup, applid):
   """
@@ -86,10 +107,7 @@ def strain_org_deets(soup, applid):
   """
   hcr_data_url = BASE_URL + "/Profile.aspx?applid=" + applid
   title = soup('h2')[0].find(text=True).title() # Org Title
-  address_part1 = soup('h2')[0].next_sibling
-  address_part2 = address_part1.next_sibling # line break
-  address_part3 = address_part2.next_sibling
-  address_comp = address_part1.strip() + ' ' + address_part3.strip()
+  address = find_address(title)
   web_urls = soup.find_all("a", class_="external")
   
   if len(web_urls) > 0:
@@ -117,7 +135,7 @@ def strain_org_deets(soup, applid):
     print "\n"
     print "hcr data url: %s" % hcr_data_url
     print "title: %s" % title
-    print "address: %s" % address_comp
+    print "address: %s" % address
     print "url: %s" % org_url
     print "contact: %s" % contact
     print "phone: %s" % phone
@@ -128,7 +146,7 @@ def strain_org_deets(soup, applid):
     org_data_dict = {
       "hcr_data_url" : hcr_data_url,
       "title" : title,
-      "address" : address_comp,
+      "address" : address,
       "website url" : org_url,
       "service area" : service_area,
       "contact person" : contact,
