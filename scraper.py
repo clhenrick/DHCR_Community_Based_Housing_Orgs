@@ -112,12 +112,11 @@ def strain_org_deets(soup):
     contact = check_length(soup.find(id="contactLabel").next_sibling.string.strip())
     phone = check_length(soup.find(id="phoneLabel").next_sibling.string.strip())
     email_pre = soup.find(id="emailLabel").next_sibling
-    print "email_pre: %s type: %s" % (email_pre, type(email_pre))
-    print "email_pre.next_sibling: %" email_pre.next_sibling
-    # if email_pre.next_sibling is not None:
-    #   email = check_length(email_pre.next_sibling.string.strip())
-    # else:
-    #   email = 'not listed'
+
+    if email_pre.next_sibling.string is not None:
+      email = check_length(email_pre.next_sibling.string.strip())
+    else:
+      email = 'not listed'
     about = ''
 
     for s in soup.find(id="profileLabel").next_siblings:
