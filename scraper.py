@@ -109,7 +109,6 @@ def strain_org_deets(soup):
           about += s.string.strip()
     
     print "\n"
-    print "count: %s" % count
     print "title: %s" % title
     print "address: %s" % address_comp
     print "url: %s" % org_url
