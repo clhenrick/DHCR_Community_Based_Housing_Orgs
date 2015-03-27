@@ -61,7 +61,7 @@ def get_org_link_data():
   """
   # link_base_url = "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid="
   count = 0
-  count_finish = 1000
+  count_finish = 50
   
   while True:
     if count > count_finish : break
