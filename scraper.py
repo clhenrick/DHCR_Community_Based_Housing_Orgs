@@ -129,7 +129,6 @@ def strain_org_deets(soup):
       "title" : title,
       "address" : address_comp,
       "website url" : org_url,
-      "type" : org_type,
       "service area" : service_area,
       "contact person" : contact,
       "phone no." : phone,
