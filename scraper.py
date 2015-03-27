@@ -116,7 +116,7 @@ def strain_org_deets(soup):
     # if email_pre.next_sibling is not None:
     #   email = check_length(email_pre.next_sibling.string.strip())
     # else:
-      email = 'not listed'
+    #   email = 'not listed'
     about = ''
 
     for s in soup.find(id="profileLabel").next_siblings:
