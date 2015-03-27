@@ -60,7 +60,7 @@ def get_org_link_data():
   enumerate over id urls for links in org names
   """
   # link_base_url = "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid="
-  count = 79
+  count = 8
   count_finish = 1000
   
   while True:
@@ -129,7 +129,7 @@ def strain_org_deets(soup):
     print "url: %s" % org_url
     print "contact: %s" % contact
     print "phone: %s" % phone
-    print "email: %s" % email_pre
+    print "email: %s" % email
     print "about: %s" %about
     print "\n"
 
@@ -140,7 +140,7 @@ def strain_org_deets(soup):
       "service area" : service_area,
       "contact person" : contact,
       "phone no." : phone,
-      # "email" : email,
+      "email" : email,
       "description" : about
     }
 
