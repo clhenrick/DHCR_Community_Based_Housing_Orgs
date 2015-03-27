@@ -25,17 +25,17 @@ def make_request(url):
   if r.status_code == requests.codes.ok:
     return r.content
 
-def writeJSON(name, data):
+def writeJSON(name, data, filename):
   """
   writes org data to JSON out file
   """
   json_data = {
    name : data
   }
-  with open('data.json', 'w') as outfile:
+  with open(filename, 'w') as outfile:
     json.dump(json_data, outfile)
 
-def get_table_data():
+def get_table_data_from_url():
   """
   perform a get request to the community org data table page
   """
@@ -45,6 +45,13 @@ def get_table_data():
 
   if content is not None:
     return strain_soup(make_soup(content))
+
+def get_table_data_from_file():
+  """
+  grab the table data from a local file
+  """
+  f = open('html/CommBased.aspx.html')
+  strain_soup(make_soup(f))
 
 def get_org_link_data():
   """
@@ -56,7 +63,7 @@ def get_org_link_data():
   
   while True:
     if count > count_finish: 
-      writeJSON('HCR Community Based Housing Orgs', ORG_DATA)
+      writeJSON('HCR Community Based Housing Org details', ORG_DATA, 'hcr_comm_housing_org_details.json')
       break
     
     count = str(count)    
@@ -67,7 +74,9 @@ def get_org_link_data():
 
       if 'Runtime Error' not in soup.title.string:    
         data = strain_org_deets(soup, count)
-        ORG_DATA.append(data)
+
+        if data is not None:
+          ORG_DATA.append(data)
     
     print "count: %s" % count
     count = int(count)
@@ -167,28 +176,40 @@ def strain_soup(soup):
   ### issue seems to do with python on my mac?
   #
 
-  for row in soup('table')[0].findAll('tr'):
-    org_dict = {}
-    td = row('td')
-    
-    if len(td) == 1 and td[0].b is not None:
-      county = ''.join(td[0].b.find(text=True))
-    
-    if len(td) == 2:
-      org_dict["name"] = ''.join(td[0].a.find(text=True))
-      org_dict["service_area"] = ''.join(td[1].find(text=True))
-      org_dict["county"] = county
-      
-    ORG_LIST.append(org_dict)
-    print org_dict
+  t_length = len(soup('table')[0].findAll('tr'))
+  count = 1
 
+  while True:
+    if count > t_length: 
+      writeJSON('HCR List of Community Based Housing Orgs', ORG_LIST, 'hcr_housing_org_list.json')
+      break
+
+    for row in soup('table')[0].findAll('tr'):
+      org_dict = {}
+      td = row('td')
+      
+      if len(td) == 1 and td[0].b is not None:
+        county = ''.join(td[0].b.find(text=True)).strip()
+      
+      if len(td) == 2:
+        org_dict["name"] = ''.join(td[0].a.find(text=True)).strip()
+        org_dict["service_area"] = ''.join(td[1].find(text=True)).strip()
+        org_dict["county"] = county
+      
+      print org_dict
+      count +=1
+
+      if not org_dict:
+        continue
+      else:
+        ORG_LIST.append(org_dict)
 
 def main():
   """
   do everything
   """
-  #   get_table_data()
-  get_org_link_data()
+  get_table_data_from_file()
+  # get_org_link_data()
 
 
 if __name__ == "__main__":
