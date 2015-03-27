@@ -107,7 +107,7 @@ def strain_org_deets(soup, applid):
   """
   hcr_data_url = BASE_URL + "/Profile.aspx?applid=" + applid
   title = soup('h2')[0].find(text=True).title() # Org Title
-  address = find_address(title)
+  address = find_address(soup('h2')[0])
   web_urls = soup.find_all("a", class_="external")
   
   if len(web_urls) > 0:
