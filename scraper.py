@@ -61,7 +61,7 @@ def get_org_link_data():
   """
   # link_base_url = "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid="
   count = 0
-  count_finish = 50
+  count_finish = 1000
   
   while True:
     if count > count_finish: 
@@ -112,7 +112,11 @@ def strain_org_deets(soup):
     contact = check_length(soup.find(id="contactLabel").next_sibling.string.strip())
     phone = check_length(soup.find(id="phoneLabel").next_sibling.string.strip())
     email_pre = soup.find(id="emailLabel").next_sibling
-    email = check_length(email_pre.next_sibling.string.strip())
+    
+    if email_pre.next_sibling is not None:
+      email = check_length(email_pre.next_sibling.string.strip())
+    else:
+      email = 'not listed'
     about = ''
 
     for s in soup.find(id="profileLabel").next_siblings:
