@@ -88,10 +88,13 @@ def strain_org_deets(soup):
   address_part1 = soup('h2')[0].next_sibling
   address_part2 = address_part1.next_sibling # line break
   address_part3 = address_part2.next_sibling
-  address_comp = address_part1 + ' ' + address_part3
-
+  address_comp = address_part1.strip() + ' ' + address_part3.strip()
   web_urls = soup.find_all("a", class_="external")
-  org_url = web_urls[0].string
+  
+  if len(web_urls) > 0:
+    org_url = web_urls[0].string
+  else:
+    org_url = ''
   
   if soup.find(id="commBasedPanel") is not None:      
     info = soup.find(id="commBasedPanel").contents # array from div containing the org's info
