@@ -74,10 +74,9 @@ def get_org_link_data():
     if content is not None:
       soup = make_soup(content)
 
-      if 'Runtime Error' not in soup.title.string
-      
-      data = strain_org_deets(soup, count)
-      ORG_DATA.append(data)
+      if 'Runtime Error' not in soup.title.string:    
+        data = strain_org_deets(soup, count)
+        ORG_DATA.append(data)
     
     print "count: %s" % count
     count = int(count)
