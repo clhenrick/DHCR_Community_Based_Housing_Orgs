@@ -59,7 +59,7 @@ def get_org_link_data():
   """
   # link_base_url = "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid="
   count = 8
-  count_finish = 1000
+  count_finish = 10000
   
   while True:
     if count > count_finish: 
@@ -192,7 +192,7 @@ def strain_soup(soup):
         county = ''.join(td[0].b.find(text=True)).strip()
       
       if len(td) == 2:
-        org_dict["name"] = ''.join(td[0].a.find(text=True)).strip()
+        org_dict["name"] = ''.join(td[0].a.find(text=True)).strip().title()
         org_dict["service_area"] = ''.join(td[1].find(text=True)).strip()
         org_dict["county"] = county
       
