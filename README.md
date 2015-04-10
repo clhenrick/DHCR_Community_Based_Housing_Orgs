@@ -21,6 +21,8 @@ To grab Node JS dependencies do:
 
 Do `python scraper.py` to create the json file of the HCR organization list and pull down the organization details from the HCR's server. This will take a while.
 
-Then do `node join_json.js > data_joined.csv` to join the two JSON files and output them to a CSV.
+Then do `node join_json.js > data_joined.json` to join the JSON files of organization list and organization details and output them to a joined JSON file.
+
+I manually converted the data from JSON to CSV format using an [web data converter](http://konklone.io/json/).
 
 **Note:** there are more organizations listed in the organization details JSON file. I believe this has to do with the HCR listing organizations elsewhere on their website, some of these may relate to housing and community development but for whatever reason are not listed on the original HTML table.
