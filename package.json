@@ -1,0 +1,33 @@
+{
+  "name": "nyhcr_community_based_housing_orgs",
+  "version": "1.0.0",
+  "description": "'List of org's on the NY HCR's website: http://www.nyshcr.org/Rent/HousingOrgs.htm'",
+  "main": "join_json.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clhenrick/DHCR_Community_Based_Housing_Orgs.git"
+  },
+  "keywords": [
+    "new",
+    "york",
+    "dhcr",
+    "housing",
+    "affordable",
+    "housing",
+    "community",
+    "development",
+    "nyc"
+  ],
+  "author": "Chris Henrick <chrishenrick@gmail.com> (http://chrishenrick.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clhenrick/DHCR_Community_Based_Housing_Orgs/issues"
+  },
+  "homepage": "https://github.com/clhenrick/DHCR_Community_Based_Housing_Orgs",
+  "dependencies": {
+    "joiner": "^0.4.2"
+  }
+}
