@@ -1,5 +1,4 @@
-{
-  "HCR Community Based Housing Org details": [
+[
     {
       "website url": "http://www.brightonbeach.com",
       "phone no.": "(718) 891-0800",
@@ -1935,6 +1934,335 @@
       "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=946",
       "email": "sreynolds@prideofticonderoga.org",
       "description": "PRIDE of Ticonderoga is a non-profit Rural Preservation Company established in 1984 for the purpose of Preserving, Revitalizing, Implementing, Directing, and Effecting community development through the securing of public and private funds for housing rehabilitation, economic development, historic preservation, community planning, and educational programs."
+    },
+    {
+      "website url": "http://www.mbdhousing.org",
+      "phone no.": "(718) 842-0256",
+      "contact person": "DERRICK A. LOVETT",
+      "title": "Mbd Community Housing Corporation",
+      "service area": "CROTONA PARK EAST",
+      "address": "1762 BOSTON RD BRONX, NY 10460",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=1036",
+      "email": "dlovett@mbdhousing.org",
+      "description": "MBD COMMUNITY HOUSING CORPORATION is a not-for-profit entity located in the South Bronx and has a long history dating back to the mid-seventies.  MBD COMMUNITY HOUSING CORP is dedicated to the advancement and encouragement of those residing in its catchment area.  The types of services rendered by MBD are as follows: Affordable Housing, Property Management, Human Services, MBD Family Medical Practice, Comprehensive Case Management, Crime Prevention, Safe At Home Program, Tenant Associations, Tenant Patrols, Community Health Screenings, Comprehensive Senior Services, Senior Health Workshops, Senior Social Events, Fresh Air Fund, Farmer's Market, Clothing Drive, Youth Services, Individual & Family Counseling.  Lastly, Referrals and Outreach were conducted."
+    },
+    {
+      "website url": "http://www.rdrc.org",
+      "phone no.": "(718) 327-5300",
+      "contact person": "KEVIN W. ALEXANDER",
+      "title": "Rockaway Development & Revitalization Corp.",
+      "service area": "ROCKAWAY PENINSULA AND BROAD CHANNEL",
+      "address": "SUITE 2 1920 MOTT AVE FAR ROCKAWAY, NY 11691",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=1168",
+      "email": "kalexander@rdrc.org",
+      "description": "Rockaway Development and Revitalization Corporation is a not-for-profit economic development organization serving the Rockaway Peninsula in Queens, NY. Our mission is to improve the quality of life within the community through the following divisions: business, housing, employment and training, and Youth Services-Beacon Program. The business division primarily focuses upon the recruitment and retention of businesses within the NYS Economic Development Zone (EDZ). Certain types of businesses that open within the EDZ are entitled to tax breaks, attractive financing packages, and discounts on utility expenses. Businesses already in the EDZ that are currently expanding are entitled to similar financial benefits. The housing division is engaged in the creation of rental and owner-occupied housing, improvement to the existing housing stock, the education of potential first-time homeowners, and financial assistance and counseling to homeowners and renters. The division is currently involved with acquiring vacant land and developing it into two-family homes that will be sold at prices affordable to households earning 80% of median area income or less. The Housing Division also educates and packages loans for individuals interested in purchasing, refinancing, and building residential housing in the area. The employment and training division trains, prepares, and places individuals seeking employment. This is done through the Youth Employment Program, which places 14 to 18 year olds. The S.T.R.I.V.E. program prepares adults who have been unsuccessful in holding onto gainful employment by addressing attitudes and providing  basic skills. The Beacon program provides after-school activities and tutoring to junior high school and high school-aged youths."
+    },
+    {
+      "website url": "http://www.stnicksalliance.org",
+      "phone no.": "(718) 388-5454",
+      "contact person": "MICHAEL F. ROCHFORD",
+      "title": "St. Nicks Alliance Corp.",
+      "service area": "CENTRAL WILLIAMSBURG/GREEN POINT",
+      "address": "2 KINGSLAND AVE BROOKLYN, NY 11211",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=1176",
+      "email": "mrochford@stnicksalliance.org",
+      "description": "St. Nicholas Neighborhood Preservation Company was founded in the Spring of 1975 by residents and business people of Williamsburg and Greenpoint, Brooklyn. Our founders wanted to develop an organization to help stem the accelerating deterioration and housing abandonment in this poor and working class community. Since 1975, it has fulfilled this mission by building a comprehensive array of community based services and programs in housing, economic development and human services to confront the area's problems. Now it is confronting new challenges of preserving and creating affordable housing for low and moderate income people, in one of the City's hottest housing markets."
+    },
+    {
+      "website url": "",
+      "phone no.": "(716) 856-7110",
+      "contact person": "MAGALIE LOMAX",
+      "title": "Hispanos Unidos De Buffalo, Inc.",
+      "service area": "LOWER WESTSIDE",
+      "address": "254 VIRGINIA ST BUFFALO, NY 14201",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=1195",
+      "email": "liglesias@hispunited.org",
+      "description": "Hispanics United of Buffalo is a non-profit organization servicing the residents of Buffalo's West Side and the Hispanic Communities of Buffalo and Erie County."
+    },
+    {
+      "website url": "",
+      "phone no.": "(718) 728-7820",
+      "contact person": "MARIE TORNIALI",
+      "title": "Central Astoria Local Development Coalition, Inc.",
+      "service area": "CENTRAL ASTORIA",
+      "address": "SUITE 1C 25-69 38TH ST ASTORIA, NY 11103",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=1226",
+      "email": "centralastoria@aol.com",
+      "description": "Since 1979, the mission of the Central Astoria Local Development Coalition has been to conduct activities designed to combat neighborhood deterioration.  Acting in the public interest of both the business and residential community, Central Astoria has undertaken programs which stimulate private reinvestment and contribute to economic development, quality of life, and housing preservation goals.  Central Astoria has been the leading provider of soft cost housing services for the residents of its service area.  These services have been targeted towards individuals with fixed, low, or moderate income as well as seniors and immigrants that make up a large percentage of the service area's population.  During the 05-06 period, the organization performed the following NPC activities: tenant/client assistance (including but not limited to obtaining and reviewing lease renewals), preventing unlawful eviction, counseling on housing court, adjusting rent overcharges, restoring basic services, calculating  MBR & MCR rent increases, mediating landlord and tenant disputes, and loan/grant applications assistance including but not limited to: SCRIE (new/renewal applications),DRIE applications,  HEAP (new/renewal applications), and Lifeline (new/renewal applications)."
+    },
+    {
+      "website url": "http://www.allencatherdal.org",
+      "phone no.": "(718) 658-6660",
+      "contact person": "PATRICIA A. RUBENS",
+      "title": "Allen Ame Neighborhood Preservation And Development Corp.",
+      "service area": "JAMAICA",
+      "address": "114-02 GUY R BREWER BLVD JAMAICA, NY 11434",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=1695",
+      "email": "prubens@optonline.net",
+      "description": "Allen AME Neighborhood Preservation & Development Corp. (NP&D;) provides housing services and community services and community services to the Southeast Queens community in Jamaica, NY.  We provide housing services in the area of new development of affordable housing, marketing homes, property rehabilitation and housing referral.  We provide educational services for those in danger of losing their homes to foreclosure as well as for those in need of minor to major repairs of their homes.  Supportive services include collaboration with banks and other lending institutions to offer home buying seminars for those interested in purchasing property and assistance to persons seeking home improvement loans by helping them to complete applications and acting as liaisons with local banks."
+    },
+    {
+      "website url": "http://www.westhab.org",
+      "phone no.": "(914) 345-2800",
+      "contact person": "KENNETH BELFER",
+      "title": "Westhab In Yonkers, Inc.",
+      "service area": "SOUTHWEST YONKERS",
+      "address": "8 BASHFORD ST YONKERS, NY 10701",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=1696",
+      "email": "ken.belfer@westhab.org",
+      "description": "Westhab in Yonkers (WIY) develops affordable housing in Southwest Yonkers.  Among the many activities undertaken by WIY, are the development of work force family housing, housing for disabled veterans and supportive housing for single adults.  WIY also is involved in a comprehensive plan to assist in the transformation of  Nodine Hill neighborhood.  The initial phase of this work was funded by the NYS Main Street program and will now continue with the development of home ownership and rental housing. Since 2003, Westhab in Yonkers has completed six projects leveraging $26,000,000 in new housing resources for the service area."
+    },
+    {
+      "website url": "http://www.housingvisions.org",
+      "phone no.": "(315) 472-3820",
+      "contact person": "KENYON M. CRAIG",
+      "title": "Housing Visions Unlimited, Inc.",
+      "service area": "SALT SPRINGS AREA OF THE CITY OF SYRACUSE",
+      "address": "SUITE 26 1201 E FAYETTE ST SYRACUSE, NY 13210",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=1826",
+      "email": "kcraig@housingvisions.org",
+      "description": "Housing Visions Unlimited, Inc. was incorporated in 1990 to significantly improve the quality of housing and the quality of life in the Greater East Genesee Street neighborhood in the City of Syracuse. A successful neighborhood revitalization model was created and with its affiliates Housing Visions has expanded its boundaries throughout New York State. Housing Visions purchases substandard multifamily buildings in \"critical mass\" groupings and substantially renovates the properties or newly constructs buildings, providing quality housing to low-income families who, in turn, accept responsibility for their surroundings and become involved in neighborhood revitalization efforts. Housing Visions has successfully renovated and placed into operation 67 buildings in the City of Syracuse providing a total of 185 housing units to eligible persons of low-income, 38 buildings in the City of Utica for 113 units of housing, 8 buildings in the City of Binghamton totaling 22 units, and 3 buildings in the City of Auburn for 12 units of quality affordable housing. Operations include: obtaining project financing, purchasing properties, managing the construction, leasing to and assisting residents, maintaining and eventually selling the buildings to qualified residents."
+    },
+    {
+      "website url": "",
+      "phone no.": "(716) 823-5124",
+      "contact person": "PHIL LOWREY",
+      "title": "Lackawanna Housing Development Corporation",
+      "service area": "FIRST AND SECOND WARDS",
+      "address": "640 RIDGE RD LACKAWANNA, NY 14218",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=1961",
+      "email": "lhdcorp@aol.com",
+      "description": "The Lackawanna Housing Development Corporation (LHDC), a not-for-profit housing corporation, was founded in 1990 as an associated corporation of the Lackawanna Community Development Corporation (LCDC). LHDC is designed to improve the quality of life through the restoration of deteriorated housing stock, creating  new housing, and encouraging residential growth for low to moderate income households in the First and Second Wards in the City of Lackawanna."
+    },
+    {
+      "website url": "",
+      "phone no.": "(518) 293-7569",
+      "contact person": "MARY E. MATTILA",
+      "title": "Rpc Of Clinton County, Inc",
+      "service area": "CLINTON COUNTY",
+      "address": "128 48 GANONG DR SARANAC, NY 12981",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=1978",
+      "email": "rpc@clintonrpc.org",
+      "description": "The Rural Preservation Company of Clinton County, Inc. has been in existence since 1986.  Our missing as a housing agency is to improve the living conditions of low-income homeowners within our Clinton County service area."
+    },
+    {
+      "website url": "http://www.cltofschdy.org",
+      "phone no.": "(518) 372-7616",
+      "contact person": "BEVERLY BURNETT",
+      "title": "Community Land Trust Of Schenectady, Inc.",
+      "service area": "MT.PLEASANT, BELLVUE, NORTH SCHENECTADY, GOOSE HILL, & THE STOCKADE",
+      "address": "1677 VAN VRANKEN AVE SCHENECTADY, NY 12308",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=2006",
+      "email": "info@cltofschdy.org",
+      "description": "Community Land Trust of Schenectady, Inc., AKA Hill and Vale Affordable Housing, a non-profit Corporation, was formed in 1991 to offer affordable housing opportunities in the Hamilton Hill and Vale neighborhoods of Schenectady.  Their  mission:  \"We seek to revitalize neighborhoods and to improve the quality of life in the City of Schenectady by providing home ownership opportunities using the Community Land Trust model.  We rehabilitate housing for low- and moderate-income families, recruit and educate homeowners and advocate for housing issues.\"  In December 2000, the designation as a \"Neighborhood Preservation Company\" brought additional funding and expanded the service area into the Mont Pleasant, Bellevue, North Schenectady and Stockade neighborhoods in Schenectady."
+    },
+    {
+      "website url": "",
+      "phone no.": "(212) 678-4700",
+      "contact person": "YESENIA ESTRELLA",
+      "title": "Sinergia, Inc.",
+      "service area": "MANHATTAN VALLEY/CENTRAL AND EAST HARLEM",
+      "address": "902 AMSTERDAM AVE NEW YORK, NY 10025",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=2009",
+      "email": "yestrella@sinergiany.org",
+      "description": "Founded in 1977, Sinergia, Inc. was developed to link low-income underserved or unserved families with individuals with disabilities to culturally and linguistically  appropriate services. As the agency grew, it pioneered services that were non-existent or unavailable to low-income, minority families. These services include: housing advocacy; parent training and education for parents of children with disabilities; transitional housing for homeless families of persons with disabilities; supportive housing for developmentally disabled parents living with their children; foster care (family Care) for children with disabilities; home care;  various models of residential services  for individuals with developmental disabilities and day habilitation services."
+    },
+    {
+      "website url": "http://www.nhnhome.org",
+      "phone no.": "(718) 686-7946",
+      "contact person": "RON ZAK",
+      "title": "Neighbors Helping Neighbors, Inc.",
+      "service area": "SUNSET PARK/SOUTH SLOPE",
+      "address": "SUITE 202 443 39TH ST BROOKLYN, NY 11232",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=2011",
+      "email": "rzak@fifthave.org",
+      "description": "Neighbors Helping Neighbors (NHN)  is a non-profit organization located in Sunset Park, Brooklyn whose mission is to empower low and moderate-income residents to secure quality housing and build assets.  NHN serves low- and moderate-income tenants, homeowners, and potential home buyers.  All services are available in English or Spanish."
+    },
+    {
+      "website url": "",
+      "phone no.": "(718) 604-0020",
+      "contact person": "CAPLE G. SPENCE",
+      "title": "Ldc Of Crown Heights",
+      "service area": "CROWN HEIGHTS",
+      "address": "230 KINGSTON AVE BROOKLYN, NY 11213",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=2014",
+      "email": "ldcch@ldcch.org",
+      "description": "The Local Development Corporation of Crown Heights, Inc. (LDDCH) is a non-profit community based organization funded in 1987. It was created in the same spirit as the empowerment zones and Strategic Planning Communities in New York State, to provide assistance to individuals who are least able to help themselves, to attract financial resources to the housing stock and commercial sector of Crown Heights. Our mission is to improve the neighborhood's physical housing conditions while increasing the quality of life of community residents.  LDCCH provides housing, loans to Minority and Women owned businesses, Educational Training in Computer Technology, social services to low and moderate income individuals, the elderly, families and those people with special needs. Our purpose is to improve the living conditions, financial strength, communication technology, and social services status of our community."
+    },
+    {
+      "website url": "",
+      "phone no.": "(716) 597-0262",
+      "contact person": "CORNELIUS JOHNSON JR.",
+      "title": "Citizens Alliance, Inc.",
+      "service area": "DELEVAN-GRIDER",
+      "address": "836 E DELAVAN AVE BUFFALO, NY 14215",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=2023",
+      "email": "cornelius_johnsonjr@yahoo.com",
+      "description": "Citizens' Alliance Inc. is a non profit community based organization serving the Delavan-Grider neighborhood of the City of Buffalo. Citizens' Alliance provides direct housing assistance to property owners and advocates for the availability of safe and affordable housing. An agency that works to ensure access to decent housing for low to moderate income residents, Citizens' Alliance mission focuses on strengthening the community through collaborative initiatives with other groups and organizations."
+    },
+    {
+      "website url": "http://www.homefrontdevcorp.com",
+      "phone no.": "(518) 747-8250",
+      "contact person": "SHARON M. REYNOLDS",
+      "title": "Homefront Development Corp.",
+      "service area": "WASHINGTON COUNTY EXCLUDING TOWNS OF PUTNAM, DRESDEN, AND WHITEHALL",
+      "address": "568 LOWER ALLEN ST HUDSON FALLS, NY 12839",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=2043",
+      "email": "homefrontdev@albany.twcbc.com",
+      "description": "HomeFront Development Corporation was founded in 1989.  Our mission is to help very low, low and moderate income households with affordable housing options.  The services we provide are:  Low income senior housing, home buyer assistance programs, housing rehabilitation programs, home buyer education, foreclosure prevention counseling, pre and post purchase counseling, emergency grant assistance for eminent danger, RD 515 multi-family housing rental management, technical assistance to other agencies and organizations, grant writing, clearing house for housing/rehabilitation related issues, administration of Housing Choice Voucher Program for home purchase.  Our services are to provide for stabilization and improvement and to provide affordable and safe housing in our communities throughout the county."
+    },
+    {
+      "website url": "http://www.pathstone.org",
+      "phone no.": "(585) 340-3346",
+      "contact person": "JOHN T. WILTSE",
+      "title": "Rural Housing Opportunities Corporation",
+      "service area": "GENESEE ORLEANS ONTARIO SENECA WAYNE & YATES COUNTIES",
+      "address": "400 EAST AVE ROCHESTER, NY 14607",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=2151",
+      "email": "jwiltse@pathstone.org",
+      "description": "Rural Housing Opportunities Corporation, Inc. (RHOC) offers housing assistance programs to low-income families and works to develop multi-family affordable housing opportunities.  The service area includes Genesee, Orleans, Ontario, Seneca, Wayne and Yates Counties.  RHOC is an affiliate corporation of Rural Opportunities, Inc. established to improve housing conditions in the service area.  RHOC's mission is to expand housing choices and improve affordability through the creation of new housing, the improvement of existing housing, and the enhancement of housing options for low-income and otherwise disenfranchised residents of rural communities through a variety of financial assistance and asset building strategies.  RHOC is governed by a twelve member Board of Directors, seven of whom reside in the service area.  RHOC currently provides a variety of services, including homeownership assistance, financial education, housing rehabilitation and energy services and low cost loan or grant assistance to help low-income residents with housing improvement or acquisition.  (1.)  Homeownership assistance is provided in Genesee, Orleans, Ontario and Wayne Counties.  These services include homebuyer education, financial education, credit counseling, mortgage application assistance, and post-purchase counseling and training. Homeownership services are provided by personnel certified in homebuyer counseling and trained in residential mortgage lending.  Other financial enhancements may also be available to low-income customers.  (2.)  Owner occupied housing rehabilitation services are offered in Genesee, Orleans, Ontario and Wayne Counties.  (3.)  Loans for home energy related improvements are also available to residents throughout the region through a program called Assisted Home Performance.  (4.)  RHOC provides community development assistance to municipalities through technical assessment of property improvement needs in downtown districts, including mixed use buildings and offers contract operation of publicly funded programs such as NY Main Street and Community Development Block Grant (CDBG) programs.  (5.)  RHOC also offers affordable rental opportunities for families and seniors in Genesee, Orleans, Wayne and Ontario Counties."
+    },
+    {
+      "website url": "",
+      "phone no.": "(585) 544-3486",
+      "contact person": "SONIA NUNEZ",
+      "title": "Isla Housing And Development Corporation",
+      "service area": "NORTHEAST/CENTRAL ROCHESTER",
+      "address": "1164 N CLINTON AVE ROCHESTER, NY 14621",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=2179",
+      "email": "sonia@proway.com",
+      "description": "Isla Housing and Development Corporation provides a variety of services to families in the Northeast area of Rochester. Our services include the typical loan and grant packaging, advocacy and other services.  Isla  Housing is also a CHDO Developer in this area providing rehabilitated homes to First Time home buyers at a lower price as well as providing subsidy to the income qualified buyer.  Isla has developed St Michael's I Senior Apartments that houses 28 elderly and disabled persons and  Phase II to St. Michael's  II Senior  Apartments that has 32 apartments for Seniors.  Isla also manages St. Michael's I as well as St Michaels II .  Isla continues to own/manage the  Pride House  that houses the Catholic Family Center whom provides services to the neighborhood residents ."
+    },
+    {
+      "website url": "",
+      "phone no.": "(518) 843-7137",
+      "contact person": "JEFFREY L. LAZAROU",
+      "title": "The Valley Rural Housing Corporation",
+      "service area": "MONTGOMERY COUNTY, EXCLUDING THE TOWN OF AMSTERDAM",
+      "address": "41 MARKET ST AMSTERDAM, NY 12010",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=2355",
+      "email": "jeff@lazarouinsurance.com",
+      "description": "The Valley Rural Housing Corporation was formed in 1993 and currently has 2 full-time and 1 part-time staff and works through a contract-for-service with over 5 different agencies, including the City of Amsterdam.  They have a strong tenant advocacy program with over 130 cases per year.  A prevailing community need and top priority for the Board is rehabilitating the current housing stock (98% of units were constructed prior to 1978.)  Amsterdam has the oldest-per-capita population in the State of New York.  Rehabilitation efforts are focused on the elderly population's homes.  In early years, 1994 and 1995, two small RESTORE grants assisted over 18 elderly homeowners with emergency repairs.  With the first HOME grant, 35 homes were rehabilitated for elderly homeowners, at an average of only $9,857 per home.  The second HOME grant rehabilitated a total of 37 units - more than the original estimate because active networking and community development made it possible to join forces with other agencies to rehabilitate additional homes with limited funding."
+    },
+    {
+      "website url": "http://www.wccainc.org",
+      "phone no.": "(585) 237-2600",
+      "contact person": "MICHAEL T. WEISS",
+      "title": "Wyoming County Community Action, Inc.",
+      "service area": "WYOMING, GENESEE, AND ORLEANS COUNTIES",
+      "address": "6470 ROUTE 20A PERRY, NY 14530",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=2583",
+      "email": "mweiss@wccainc.org",
+      "description": "Service Profile: Wyoming County Community Action, Inc. (WCCA) is a not-for-profit cap agency serving the counties of Wyoming, Genesee and Orleans in rural western New York State.  WCCA is a OneStop Agency as designated by the Department of Labor.  We provide services to individuals and other human service agencies through three divisions:  Housing Programs, Employment & Training and Angels in Action.  The Board of Directors for WCCA is made up of individuals from all three counties that are served.  WCCA operates a NYS Certified Pre-School Day Care in Wyoming County."
+    },
+    {
+      "website url": "http://www.rouserpc.com",
+      "phone no.": "(518) 283-3435",
+      "contact person": "PAUL TAZBIR",
+      "title": "Rouse Rpc, Inc.",
+      "service area": "RENSSELAER COUNTY, EXCLUDING TROY",
+      "address": "99 BLOOMING GROVE DR TROY, NY 12180",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=2683",
+      "email": "rrouse@nycapp.rr.com",
+      "description": "R.O.U.S.E., RPC was funded in l994 to meet the increasing housing needs of the senior population in Rensselaer County.  There was a large demand for safe, affordable senior housing in the rural areas.  Future residents did not want to leave their communities, with friends and family within a few miles, and move to housing in the Cities of Troy and Rensselaer.  R.O.U.S.E., RPC brought the housing to the senior population."
+    },
+    {
+      "website url": "http://www.nhsnyc.org",
+      "phone no.": "(718) 457-1017",
+      "contact person": "YGMAR WIEL",
+      "title": "Neighborhood Housing Services Of Northern Queens",
+      "service area": "CORONA, ELMHURST, & JACKSON HEIGHTS",
+      "address": "2ND FLOOR 60-20 WOODSIDE AVE WOODSIDE, NY 11377",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=2764",
+      "email": "ygmar_wiel@nhsnyc.org",
+      "description": "Neighborhood Housing Services of Northern Queens (NHSNQ) is a not-for-profit housing organization whose primary goal is to serve the housing needs of residents in Community Boards 1,2, 3 and 4. The organization's mission is to increase and protect investment in the neighborhoods it serves by creating, promoting and preserving affordable housing, educating residents, and supporting neighborhood self-reliance. NHSNQ was established in 1994 and is governed by a Board of Directors comprised of community residents, leaders, government and financial representatives."
+    },
+    {
+      "website url": "http://www.hrhcare.org/preservation/pchome.html",
+      "phone no.": "(914) 734-8795",
+      "contact person": "KAREN GORDON",
+      "title": "The Preservation Company, Inc.",
+      "service area": "CITY OF PEEKSKILL",
+      "address": "1037 MAIN ST PEEKSKILL, NY 10566",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=3103",
+      "email": "kgordon@hrhcare.org",
+      "description": "The Preservation Company, Inc. (the \"Preservation Company\") is a housing and community development organization serving Peekskill.  Its mission is to increase and improve the supply of housing for low and moderate income households and to contribute to community development and revitalization efforts.  Our store front office is easily accessed by public transportation.  We maintain an \"open-door-policy\" that welcomes everyone on a walk-in basis.  We are open regularly from 9 a.m. to 5 p.m.  on weekdays and during evenings and weekends by appointment.  The Preservation Company is staffed by trained professionals experienced in administration, housing development and management, and tenant and homeowner services.  We have been part of Peekskill for many years.  We know our community and its social, charitable and housing resources by experience.  We are proud of our excellent working relationship with neighboring agencies and service providers.  A variety of services and programs are administered here that can meet the needs of families at many different levels.  Along with workshops and assistance with the purchase and mortgaging of a home, we also provide rental housing and look for opportunities to expand the supply of affordable rental and home ownership housing.  In addition, we provide tenant services, including mediation services and referrals to organizations for rent assistance, security deposits, etc.  The Preservation Company runs both a Home Improvement Program and a Rental Rehab Program, assisting in necessary improvements for income-eligible homeowners and landlords in the City of Peekskill."
+    },
+    {
+      "website url": "http://www.sheltersofsaratoga.org",
+      "phone no.": "(518) 581-5955",
+      "contact person": "MICHAEL FINOCCHI",
+      "title": "Shelters Of Saratoga, Inc.",
+      "service area": "CITY OF SARATOGA SPRINGS EXCLUDING GEYSER CREST AND NORTH OF I-87",
+      "address": "3089 14 WALWORTH ST SARATOGA SPRINGS, NY 12866",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=3305",
+      "email": "sosed@nycapp.rr.com",
+      "description": "Shelters of Saratoga (SOS)'s mission, as a Neighborhood Preservation Company, is to create healthy, thriving neighborhoods that retain the architecture of the past while providing affordable housing for existing and new residents of Saratoga Springs. To accomplish this, they conduct a number of ongoing programs supplemented by a continuous effort to identify the needs of the community and establish feasible solutions."
+    },
+    {
+      "website url": "http://www.hocn.org",
+      "phone no.": "(716) 882-7661",
+      "contact person": "STEPHANIE J. SIMEON",
+      "title": "Heart Of The City Neighborhoods, Inc.",
+      "service area": "DOWNTOWN AREA, NEAR EAST SIDE, & LOWER WEST SIDE OF BUFFALO",
+      "address": "SUITE A 251 VIRGINIA ST BUFFALO, NY 14201",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=3421",
+      "email": "s.simeon@hocn.org",
+      "description": "Heart of the City Neighborhoods, Inc. (HCN) mission is to create, facilitate and support housing and neighborhood development of the central core in the City of Buffalo.  This will be achieved through creating programs to improve residential units, assisting private developers, neighborhood leaders, the City and other not-for-profit organizations in developing sustainable projects to improve downtown neighborhoods.  HCN's prime operations include the acquisition, rehabilitation, and resale of blighted properties, using public and private funding to make housing available to low-moderate income households.  Additionally, HCN provides a number of other housing-related services, including technical assistance and referrals."
+    },
+    {
+      "website url": "",
+      "phone no.": "(845) 569-0770",
+      "contact person": "EILEEN CLIFFORD",
+      "title": "Pathstone Community Improvement Of Newburgh",
+      "service area": "CITY OF NEWBURGH (EXCLUDING CENSUS TRACT 2)",
+      "address": "1086 NEWBURGH, NY 12551",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=3992",
+      "email": "eclifford@pathstone.org",
+      "description": "The Newburgh Community Improvement Corporation (NCIC) is the designated Neighborhood Preservation Corporation serving the City of Newburgh.  NCIC is a NeighborWorks America organization (NWO) and a Community Housing Development Organization (CHDO).  NCIC provides Home Ownership Education and Counseling services, using counselors certified by NeighborWorks America, by HUD and by Fannie Mae.  NCIC also develops affordable housing for both the home ownership and rental markets.  NCIC is developing the last six units of an acquisition/rehabilitation/resale project, and has just finished 20 affordable rental units as Phase III of the Historic Lander Street Apartments.  NCIC also operates a Permanent Housing Program for the Disabled, with HUD support.  This project has been 100% occupied since its inception in 2002.  In 2003, NCIC and an array of community partner agencies received designation from the U.S. Department of Justice as a Weed and Seed site, working on crime prevention and reduction, and development of opportunities for residents of Census Tract 4."
+    },
+    {
+      "website url": "http://www.adelantesc.org",
+      "phone no.": "(631) 234-1049",
+      "contact person": "MIRIAM M.E. GARCIA",
+      "title": "Adelante Of Suffolk County, Inc.",
+      "service area": "PART OF BRENTWOOD - CONTACT FOR DETAILS",
+      "address": "83 CARLETON AVE CENTRAL ISLIP, NY 11722",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=4337",
+      "email": "adelante2@juno.com",
+      "description": "Adelante of Suffolk County, Inc., a non-profit multi-service community based organization, founded in 1966, has successfully provided services to the culturally diverse community of Suffolk County in the areas of health, education, employment, supported housing, youth leadership programs, volunteerism, and cultural awareness.  Adelante strives to eliminate the social stigma and economic barriers that prevent the effective functioning and assimilation of its community members. This goal is achieved by assisting the most vulnerable: children and youth, persons with disabilities, low-income families, recent immigrants and senior citizens."
+    },
+    {
+      "website url": "",
+      "phone no.": "(716) 285-5650",
+      "contact person": "CHARLETTA TYSON",
+      "title": "Highland Community Revitilization Committee, Inc",
+      "service area": "PART OF NIAGARA FALLS - CONTACT FOR DETAILS",
+      "address": "SUITE 101 2616 HIGHLAND ST NIAGARA FALLS, NY 14305",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=4339",
+      "email": "ctyson116@yahoo.com",
+      "description": "The Highland Community Revitalization Committee, Inc. (HCRC) is a cooperative of concerned citizens and residents seeking to serve as a catalyst for the resurgence and redevelopment of the Highland community and surrounding area. Through its leadership and by its example HCRC will bring vitality back into the community. Its beautification efforts will make the area a more desirable place to live. HCRC will work to improve the quality of life for residents by upgrading housing and removing blight and will work with the community and in partnership with civic, business and other sources to rebuild and restore the Highland area. HCRC will advocate on behalf of area residents and businesses to appropriate agencies which will attract needed help and resources. Promoting pride in the Highland area will bring the community together with the common purpose and goal of advancement for all."
+    },
+    {
+      "website url": "http://www.aafe.org",
+      "phone no.": "(212) 477-7077",
+      "contact person": "THOMAS YU",
+      "title": "Downtown Manhattan Community Development Corp.",
+      "service area": "CHINATOWN/LOWER EASTSIDE",
+      "address": "GROUND FLOOR 141 NORFOLK ST NEW YORK, NY 10002",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=4412",
+      "email": "thomas_yu@aafe.org",
+      "description": "Downtown Manhattan Community Development Corporation (DMCDC) was founded in 1995 to provide affordable housing planning and implementation for downtown Manhattan.  With a Board comprised primarily of local residents and business owners, DMCDC responds to local needs with appropriate quality development.  DMCDC  promotes and protects the housing rights of  low-income families through advocacy  for and access to housing resources, such as affordable housing and government subsidies.  DMCDC links with local  social service programs, home ownership, small business and other initiatives, while targeting planning and real estate development in the Lower East Side and Chinatown to revitalize of these important neighborhoods."
+    },
+    {
+      "website url": "",
+      "phone no.": "(718) 435-1300",
+      "contact person": "TOM BAUER",
+      "title": "Community Organization Of Southern Brooklyn, Inc.",
+      "service area": "BOROUGH PARK",
+      "address": "4006 18TH AVE BROOKLYN, NY 11218",
+      "hcr_data_url": "https://www1.dhcr.state.ny.us/LocalHousingOrgLists/Profile.aspx?applid=5045",
+      "email": "tbauer@sbcony.org",
+      "description": "No profile found for this organization"
     }
   ]
-}

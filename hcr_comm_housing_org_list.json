@@ -1,529 +1,527 @@
-{
-  "HCR List of Community Based Housing Orgs": [
-    {
-      "county": "Albany County",
-      "service_area": "TOWNSHIPS OF NEW SCOTLAND, COEYMANS, KNOX, WESTERLO, BERNE, RENSSELAERVILLE, VILLAGE OF GREEN ISLAND AND CITY OF COHOES",
-      "name": "ALBANY COUNTY RURAL HOUSING ALLIANCE, INC."
-    },
-    {
-      "county": "Albany County",
-      "service_area": "ARBOR HILL AND WEST HILL",
-      "name": "ALBANY HOUSING COALITION, INC."
-    },
-    {
-      "county": "Albany County",
-      "service_area": "ARBOR HILL/NORTH ALBANY",
-      "name": "ARBOR HILL DEVELOPMENT CORP."
-    },
-    {
-      "county": "Albany County",
-      "service_area": "SOUTH END OF CITY OF ALBANY",
-      "name": "SOUTH END IMPROVEMENT CORP."
-    },
-    {
-      "county": "Albany County",
-      "service_area": "SECTIONS OF ALBANY: SOUTH END, DELAWARE AVE, ARBOR HILL, NORTH ALBANY, WEST HILL, PINE HILLS, CENTER SQUARE, MANSION, HUDSON PARK, PARK SOUTH",
-      "name": "UNITED TENANTS OF ALBANY, INC."
-    },
-    {
-      "county": "Bronx County",
-      "service_area": "MORRISANIA",
-      "name": "163RD STREET IMPROVEMENT COUNCIL, INC."
-    },
-    {
-      "county": "Bronx County",
-      "service_area": "BELMONT",
-      "name": "BELMONT ARTHUR AVENUE LOCAL DEVELOPMENT CORP."
-    },
-    {
-      "county": "Bronx County",
-      "service_area": "MORRISANIA",
-      "name": "BRONX SHEPHERDS RESTORATION CORP."
-    },
-    {
-      "county": "Bronx County",
-      "service_area": "FORDHAM-BEDFORD",
-      "name": "FORDHAM BEDFORD HOUSING CORPORATION"
-    },
-    {
-      "county": "Bronx County",
-      "service_area": "CROTONA PARK EAST",
-      "name": "MBD COMMUNITY HOUSING CORPORATION"
-    },
-    {
-      "county": "Bronx County",
-      "service_area": "GRAND CONCOURSE",
-      "name": "MID-BRONX SENIOR CITIZENS COUNCIL, INC."
-    },
-    {
-      "county": "Bronx County",
-      "service_area": "MORRISANIA",
-      "name": "MORRISANIA REVITALIZATION CORPORATION, INC."
-    },
-    {
-      "county": "Bronx County",
-      "service_area": "MOUNT HOPE",
-      "name": "MOUNT HOPE HOUSING CO, INC."
-    },
-    {
-      "county": "Bronx County",
-      "service_area": "MORRISANIA/HIGH BRIDGE",
-      "name": "NEIGHBORHOOD ASSOCIATION FOR INTERCULTURAL AFFAIRS"
-    },
-    {
-      "county": "Bronx County",
-      "service_area": "WILLIAMSBRIDGE",
-      "name": "NEIGHBORHOOD HOUSING SERVICES OF NORTH BRONX, INC."
-    },
-    {
-      "county": "Bronx County",
-      "service_area": "NORTHEAST BRONX",
-      "name": "NEIGHBORHOOD INITIATIVES DEVELOPMENT CORP."
-    },
-    {
-      "county": "Bronx County",
-      "service_area": "NORTHWEST BRONX",
-      "name": "NORTHWEST BRONX COMMUNITY & CLERGY COALITION"
-    },
-    {
-      "county": "Bronx County",
-      "service_area": "HUNTS POINT/ALDUS/LONGWOOD",
-      "name": "SOUTH EAST BRONX COMMUNITY DEVELOPMENT CORP."
-    },
-    {
-      "county": "Bronx County",
-      "service_area": "COMMUNITY DISTRICTS 5 & 7",
-      "name": "WEST BRONX HOUSING AND NEIGHBORHOOD RESOURCES CENTER, INC."
-    },
-    {
-      "county": "Erie County",
-      "service_area": "BLACK ROCK/RIVERSIDE/GRANT-AMHERST",
-      "name": "BLACK ROCK-RIVERSIDE NEIGHBORHOOD HOUSING SERVICES, INC."
-    },
-    {
-      "county": "Erie County",
-      "service_area": "FILLMORE",
-      "name": "BROADWAY-FILLMORE NEIGHBORHOOD HOUSING SERVICES INC."
-    },
-    {
-      "county": "Erie County",
-      "service_area": "DELEVAN-GRIDER",
-      "name": "CITIZENS ALLIANCE, INC."
-    },
-    {
-      "county": "Erie County",
-      "service_area": "EMSLIE-JOHNSON",
-      "name": "ELLICOTT DISTRICT COMMUNITY DEVELOPMENT, INC."
-    },
-    {
-      "county": "Erie County",
-      "service_area": "FILLMORE-LEROY",
-      "name": "FILLMORE-LEROY AREA RESIDENTS, INC."
-    },
-    {
-      "county": "Erie County",
-      "service_area": "DOWNTOWN AREA, NEAR EAST SIDE, & LOWER WEST SIDE OF BUFFALO",
-      "name": "HEART OF THE CITY NEIGHBORHOODS, INC."
-    },
-    {
-      "county": "Erie County",
-      "service_area": "LOWER WESTSIDE",
-      "name": "HISPANOS UNIDOS DE BUFFALO, INC."
-    },
-    {
-      "county": "Erie County",
-      "service_area": "FIRST AND SECOND WARDS",
-      "name": "LACKAWANNA HOUSING DEVELOPMENT CORPORATION"
-    },
-    {
-      "county": "Erie County",
-      "service_area": "BROADWAY-FILLMORE",
-      "name": "LT. COL. MATT URBAN HUMAN SERVICES CENTER OF WNY"
-    },
-    {
-      "county": "Erie County",
-      "service_area": "SOUTH BUFFALO",
-      "name": "NEIGHBORHOOD HOUSING SERVICES OF SOUTH BUFFALO, INC."
-    },
-    {
-      "county": "Erie County",
-      "service_area": "ALL CATTARAUGUS CO., SOUTHERN ERIE, SOUTHWESTERN WYOMING",
-      "name": "NEIGHBORWORKS HOME RESOURCES"
-    },
-    {
-      "county": "Erie County",
-      "service_area": "OLD FIRST WARD",
-      "name": "OLD 1ST WARD COMMUNITY ASSOCIATION, INC."
-    },
-    {
-      "county": "Erie County",
-      "service_area": "SOUTH ERIE COUNTY",
-      "name": "SOUTHTOWNS RURAL PRESERVATION COMPANY, INC."
-    },
-    {
-      "county": "Erie County",
-      "service_area": "WEST SIDE",
-      "name": "WEST SIDE NEIGHBORHOOD HOUSING SERVICES, INC."
-    },
-    {
-      "county": "Kings County",
-      "service_area": "CONEY ISLAND",
-      "name": "ASTELLA DEVELOPMENT CORPORATION"
-    },
-    {
-      "county": "Kings County",
-      "service_area": "BRIGHTON BEACH",
-      "name": "BRIGHTON NEIGHBORHOOD ASSOCIATION INC."
-    },
-    {
-      "county": "Kings County",
-      "service_area": "OCEAN PARKWAY/MIDWOOD JUNCTION",
-      "name": "BROOKLYN HOUSING AND FAMILY SERVICES, INC."
-    },
-    {
-      "county": "Kings County",
-      "service_area": "CROWN HEIGHTS/PROSPECT HEIGHTS",
-      "name": "BROOKLYN NEIGHBORHOOD IMPROVEMENT ASSOCIATION INC."
-    },
-    {
-      "county": "Kings County",
-      "service_area": "REDHOOK/CARROLL GARDENS/COLUMBIA STREET/WATERFRONT",
-      "name": "CARROLL GARDENS ASSOCIATION, INC."
-    },
-    {
-      "county": "Kings County",
-      "service_area": "BOROUGH PARK",
-      "name": "COMMUNITY ORGANIZATION OF SOUTHERN BROOKLYN, INC."
-    },
-    {
-      "county": "Kings County",
-      "service_area": "CROWN HEIGHTS",
-      "name": "CROWN HEIGHTS JEWISH COMMUNITY COUNCIL, INC."
-    },
-    {
-      "county": "Kings County",
-      "service_area": "CYPRESS HILLS/HIGHLAND",
-      "name": "CYPRESS HILLS LOCAL DEVELOPMENT CORPORATION"
-    },
-    {
-      "county": "Kings County",
-      "service_area": "EAST NEW YORK",
-      "name": "EAST NEW YORK URBAN YOUTH CORPS INC."
-    },
-    {
-      "county": "Kings County",
-      "service_area": "EAST FLATBUSH",
-      "name": "ERASMUS NEIGHBORHOOD FEDERATION, INC."
-    },
-    {
-      "county": "Kings County",
-      "service_area": "LOWER PARK SLOPE",
-      "name": "FIFTH AVENUE COMMITTEE, INC."
-    },
-    {
-      "county": "Kings County",
-      "service_area": "FLATBUSH",
-      "name": "FLATBUSH DEVELOPMENT CORP."
-    },
-    {
-      "county": "Kings County",
-      "service_area": "GOWANUS CANAL",
-      "name": "GOWANUS CANAL COMMUNITY DEVELOPMENT CORPORATION"
-    },
-    {
-      "county": "Kings County",
-      "service_area": "SHEEPSHEAD BAY",
-      "name": "GREATER SHEEPSHEAD BAY DEVELOPMENT CORP."
-    },
-    {
-      "county": "Kings County",
-      "service_area": "CROWN HEIGHTS",
-      "name": "LDC OF CROWN HEIGHTS"
-    },
-    {
-      "county": "Kings County",
-      "service_area": "SOUTHSIDE/WILLIAMSBURG",
-      "name": "LOS SURES COMMUNITY DEVELOPMENT COMPANY, INC."
-    },
-    {
-      "county": "Kings County",
-      "service_area": "MIDWOOD",
-      "name": "MIDWOOD DEVELOPMENT CORP."
-    },
-    {
-      "county": "Kings County",
-      "service_area": "SUNSET PARK/SOUTH SLOPE",
-      "name": "NEIGHBORS HELPING NEIGHBORS, INC."
-    },
-    {
-      "county": "Kings County",
-      "service_area": "EAST FLATBUSH",
-      "name": "NHS OF EAST FLATBUSH"
-    },
-    {
-      "county": "Kings County",
-      "service_area": "GREENPOINT",
-      "name": "NORTH BROOKLYN DEVELOPMENT CORP."
-    },
-    {
-      "county": "Kings County",
-      "service_area": "OCEANHILL/BROWNSVILLE/CROWN HEIGHTS/BEDFORD STUYVESANT",
-      "name": "NORTHEAST BROOKLYN HOUSING DEVELOPMENT CORP."
-    },
-    {
-      "county": "Kings County",
-      "service_area": "KENSINGTON/OCEAN PARKWAY",
-      "name": "OCEAN PARKWAY COMMUNITY DEVELOPMENT CORP."
-    },
-    {
-      "county": "Kings County",
-      "service_area": "CLINTON HILL/FORT GREENE",
-      "name": "PRATT AREA COMMUNITY COUNCIL"
-    },
-    {
-      "county": "Kings County",
-      "service_area": "BUSHWICK",
-      "name": "RIDGEWOOD BUSHWICK SENIOR CITIZENS COUNCIL, INC."
-    },
-    {
-      "county": "Kings County",
-      "service_area": "CENTRAL WILLIAMSBURG/GREEN POINT",
-      "name": "ST. NICKS ALLIANCE CORP."
-    },
-    {
-      "county": "New York County",
-      "service_area": "EAST HARLEM AND EL BARRIO",
-      "name": "116 STREET BLOCK ASSOCIATION, INC."
-    },
-    {
-      "county": "New York County",
-      "service_area": "CLINTON",
-      "name": "CLINTON HOUSING DEVELOPMENT CO. INC."
-    },
-    {
-      "county": "New York County",
-      "service_area": "WASHINGTON HEIGHTS",
-      "name": "COMMUNITY LEAGUE OF THE HEIGHTS"
-    },
-    {
-      "county": "New York County",
-      "service_area": "LOWER EAST SIDE",
-      "name": "COOPER SQUARE CD COMMITTEE & BUSINESSMEN'S ASSOCIATION, INC."
-    },
-    {
-      "county": "New York County",
-      "service_area": "CHINATOWN/LOWER EASTSIDE",
-      "name": "DOWNTOWN MANHATTAN COMMUNITY DEVELOPMENT CORP."
-    },
-    {
-      "county": "New York County",
-      "service_area": "WEST AND CENTRAL HARLEM",
-      "name": "ECUMENICAL COMMUNITY DEVELOPMENT ORGANIZATION"
-    },
-    {
-      "county": "New York County",
-      "service_area": "EAST HARLEM/EL BARRIO",
-      "name": "EL BARRIO'S OPERATION FIGHT-BACK"
-    },
-    {
-      "county": "New York County",
-      "service_area": "LOWER EAST SIDE",
-      "name": "GOOD OLD LOWER EAST SIDE, INC."
-    },
-    {
-      "county": "New York County",
-      "service_area": "EAST HARLEM",
-      "name": "HELLGATE MANAGEMENT CORP."
-    },
-    {
-      "county": "New York County",
-      "service_area": "EAST HARLEM/EL BARRIO",
-      "name": "HOPE COMMUNITY, INC."
-    },
-    {
-      "county": "New York County",
-      "service_area": "CLINTON",
-      "name": "HOUSING CONSERVATION COORDINATORS, INC."
-    },
-    {
-      "county": "New York County",
-      "service_area": "LOWER EAST SIDE",
-      "name": "LOWER EAST SIDE COALITION HOUSING DEVELOPMENT, INC."
-    },
-    {
-      "county": "New York County",
-      "service_area": "MANHATTAN VALLEY",
-      "name": "MANHATTAN VALLEY DEVELOPMENT CORPORATION"
-    },
-    {
-      "county": "New York County",
-      "service_area": "LOWER EAST SIDE",
-      "name": "MFY LEGAL SERVICES, INC."
-    },
-    {
-      "county": "New York County",
-      "service_area": "WASHINGTON HEIGHTS/INWOOD",
-      "name": "NORTHERN MANHATTAN IMPROVEMENT CORP."
-    },
-    {
-      "county": "New York County",
-      "service_area": "EAST HARLEM",
-      "name": "NUEVO EL BARRIO PARA LA REHAB DE LA VIVIENDA Y LA ECONOMIA"
-    },
-    {
-      "county": "New York County",
-      "service_area": "MANHATTAN VALLEY/CENTRAL AND EAST HARLEM",
-      "name": "SINERGIA, INC."
-    },
-    {
-      "county": "New York County",
-      "service_area": "UPPER WEST SIDE",
-      "name": "STRYCKER'S BAY NEIGHBORHOOD COUNCIL"
-    },
-    {
-      "county": "New York County",
-      "service_area": "LOWER EASTSIDE",
-      "name": "UNITED JEWISH COUNCIL OF THE EAST SIDE, INC."
-    },
-    {
-      "county": "New York County",
-      "service_area": "WASHINGTON HEIGHTS/INWOOD",
-      "name": "WASHINGTON HEIGHTS INWOOD PRESERVATION AND RESTORATION CORP."
-    },
-    {
-      "county": "New York County",
-      "service_area": "WEST HARLEM/HAMILTON HEIGHTS",
-      "name": "WEST HARLEM GROUP ASSISTANCE, INC."
-    },
-    {
-      "county": "New York County",
-      "service_area": "UPPER WESTSIDE",
-      "name": "WEST SIDE FEDERATION FOR SENIOR AND SUPPORTIVE HOUSING, INC."
-    },
-    {
-      "county": "New York County",
-      "service_area": "HAMILTON HEIGHTS",
-      "name": "WILSON MAJOR MORRIS COMMUNITY CENTER, INC."
-    },
-    {
-      "county": "Queens County",
-      "service_area": "JAMAICA",
-      "name": "ALLEN AME NEIGHBORHOOD PRESERVATION AND DEVELOPMENT CORP."
-    },
-    {
-      "county": "Queens County",
-      "service_area": "DITMARS/ASTORIA",
-      "name": "ASTORIA RESTORATION ASSOCIATION, INC."
-    },
-    {
-      "county": "Queens County",
-      "service_area": "CENTRAL ASTORIA",
-      "name": "CENTRAL ASTORIA LOCAL DEVELOPMENT COALITION, INC."
-    },
-    {
-      "county": "Queens County",
-      "service_area": "FAR ROCKAWAY",
-      "name": "JEWISH COMMUNITY COUNCIL OF THE ROCKAWAY PENINSULA"
-    },
-    {
-      "county": "Queens County",
-      "service_area": "FAR ROCKAWAY/EDGEMERE",
-      "name": "MARGERT COMMUNITY CORP."
-    },
-    {
-      "county": "Queens County",
-      "service_area": "CORONA, ELMHURST, & JACKSON HEIGHTS",
-      "name": "NEIGHBORHOOD HOUSING SERVICES OF NORTHERN QUEENS"
-    },
-    {
-      "county": "Queens County",
-      "service_area": "JAMAICA",
-      "name": "NHS OF JAMAICA, INC."
-    },
-    {
-      "county": "Queens County",
-      "service_area": "ASTORIA",
-      "name": "NORTHWEST QUEENS HOUSING CORP."
-    },
-    {
-      "county": "Queens County",
-      "service_area": "FOREST HILLS, REGO PARK, CORONA & ELMHURST",
-      "name": "QUEENS COMMUNITY HOUSE, INC."
-    },
-    {
-      "county": "Queens County",
-      "service_area": "ROCKAWAY PENINSULA AND BROAD CHANNEL",
-      "name": "ROCKAWAY DEVELOPMENT & REVITALIZATION CORP."
-    },
-    {
-      "county": "Queens County",
-      "service_area": "RIDGEWOOD/MASPETH/GLENDALE/MIDDLE VILLAGE",
-      "name": "THE GREATER RIDGEWOOD RESTORATION CORPORATION"
-    },
-    {
-      "county": "Queens County",
-      "service_area": "WOODSIDE",
-      "name": "WOODSIDE ON THE MOVE, INC."
-    },
-    {
-      "county": "Richmond County",
-      "service_area": "WEST BRIGHTON",
-      "name": "NHS OF STATEN ISLAND, INC."
-    },
-    {
-      "county": "Richmond County",
-      "service_area": "PORT RICHMOND",
-      "name": "NORTHFIELD COMMUNITY LOCAL DEVELOPMENT CORPORATION"
-    },
-    {
-      "county": "Richmond County",
-      "service_area": "NORTH SHORE",
-      "name": "RICHMOND SENIOR SERVICES, INC."
-    },
-    {
-      "county": "Rockland County",
-      "service_area": "VILLAGES IN ROCKLAND COUNTY",
-      "name": "RCDC HOUSING, INC."
-    },
-    {
-      "county": "Rockland County",
-      "service_area": "MONSEY",
-      "name": "ROCKLAND COUNTY DEVELOPMENT COUNCIL, INC."
-    },
-    {
-      "county": "Westchester County",
-      "service_area": "PORT CHESTER",
-      "name": "HUMAN DEVELOPMENT SERVICES OF WESTCHESTER"
-    },
-    {
-      "county": "Westchester County",
-      "service_area": "OSSINING'S INNER VILLAGE",
-      "name": "INTERFAITH COUNCIL FOR ACTION, INC."
-    },
-    {
-      "county": "Westchester County",
-      "service_area": "SOUTH MOUNT VERNON",
-      "name": "MOUNT VERNON UNITED TENANTS"
-    },
-    {
-      "county": "Westchester County",
-      "service_area": "NORTHWEST YONKERS",
-      "name": "NORTH YONKERS PRESERVATION & DEVELOPMENT CORP."
-    },
-    {
-      "county": "Westchester County",
-      "service_area": "CITY OF PEEKSKILL",
-      "name": "THE PRESERVATION COMPANY, INC."
-    },
-    {
-      "county": "Westchester County",
-      "service_area": "SOUNDSHORE AREA OF MAMARONECK & MAMARONECK CENTRAL BUSINESS DISTRICT",
-      "name": "WASHINGTONVILLE HOUSING ALLIANCE, INC."
-    },
-    {
-      "county": "Westchester County",
-      "service_area": "SOUTHWEST YONKERS",
-      "name": "WESTHAB IN YONKERS, INC."
-    }
-  ]
-}
+[
+  {
+    "county": "Albany County",
+    "service_area": "TOWNSHIPS OF NEW SCOTLAND, COEYMANS, KNOX, WESTERLO, BERNE, RENSSELAERVILLE, VILLAGE OF GREEN ISLAND AND CITY OF COHOES",
+    "name": "Albany County Rural Housing Alliance, Inc."
+  },
+  {
+    "county": "Albany County",
+    "service_area": "ARBOR HILL AND WEST HILL",
+    "name": "Albany Housing Coalition, Inc."
+  },
+  {
+    "county": "Albany County",
+    "service_area": "ARBOR HILL/NORTH ALBANY",
+    "name": "Arbor Hill Development Corp."
+  },
+  {
+    "county": "Albany County",
+    "service_area": "SOUTH END OF CITY OF ALBANY",
+    "name": "South End Improvement Corp."
+  },
+  {
+    "county": "Albany County",
+    "service_area": "SECTIONS OF ALBANY: SOUTH END, DELAWARE AVE, ARBOR HILL, NORTH ALBANY, WEST HILL, PINE HILLS, CENTER SQUARE, MANSION, HUDSON PARK, PARK SOUTH",
+    "name": "United Tenants Of Albany, Inc."
+  },
+  {
+    "county": "Bronx County",
+    "service_area": "MORRISANIA",
+    "name": "163Rd Street Improvement Council, Inc."
+  },
+  {
+    "county": "Bronx County",
+    "service_area": "BELMONT",
+    "name": "Belmont Arthur Avenue Local Development Corp."
+  },
+  {
+    "county": "Bronx County",
+    "service_area": "MORRISANIA",
+    "name": "Bronx Shepherds Restoration Corp."
+  },
+  {
+    "county": "Bronx County",
+    "service_area": "FORDHAM-BEDFORD",
+    "name": "Fordham Bedford Housing Corporation"
+  },
+  {
+    "county": "Bronx County",
+    "service_area": "CROTONA PARK EAST",
+    "name": "Mbd Community Housing Corporation"
+  },
+  {
+    "county": "Bronx County",
+    "service_area": "GRAND CONCOURSE",
+    "name": "Mid-Bronx Senior Citizens Council, Inc."
+  },
+  {
+    "county": "Bronx County",
+    "service_area": "MORRISANIA",
+    "name": "Morrisania Revitalization Corporation, Inc."
+  },
+  {
+    "county": "Bronx County",
+    "service_area": "MOUNT HOPE",
+    "name": "Mount Hope Housing Co, Inc."
+  },
+  {
+    "county": "Bronx County",
+    "service_area": "MORRISANIA/HIGH BRIDGE",
+    "name": "Neighborhood Association For Intercultural Affairs"
+  },
+  {
+    "county": "Bronx County",
+    "service_area": "WILLIAMSBRIDGE",
+    "name": "Neighborhood Housing Services Of North Bronx, Inc."
+  },
+  {
+    "county": "Bronx County",
+    "service_area": "NORTHEAST BRONX",
+    "name": "Neighborhood Initiatives Development Corp."
+  },
+  {
+    "county": "Bronx County",
+    "service_area": "NORTHWEST BRONX",
+    "name": "Northwest Bronx Community & Clergy Coalition"
+  },
+  {
+    "county": "Bronx County",
+    "service_area": "HUNTS POINT/ALDUS/LONGWOOD",
+    "name": "South East Bronx Community Development Corp."
+  },
+  {
+    "county": "Bronx County",
+    "service_area": "COMMUNITY DISTRICTS 5 & 7",
+    "name": "West Bronx Housing And Neighborhood Resources Center, Inc."
+  },
+  {
+    "county": "Erie County",
+    "service_area": "BLACK ROCK/RIVERSIDE/GRANT-AMHERST",
+    "name": "Black Rock-Riverside Neighborhood Housing Services, Inc."
+  },
+  {
+    "county": "Erie County",
+    "service_area": "FILLMORE",
+    "name": "Broadway-Fillmore Neighborhood Housing Services Inc."
+  },
+  {
+    "county": "Erie County",
+    "service_area": "DELEVAN-GRIDER",
+    "name": "Citizens Alliance, Inc."
+  },
+  {
+    "county": "Erie County",
+    "service_area": "EMSLIE-JOHNSON",
+    "name": "Ellicott District Community Development, Inc."
+  },
+  {
+    "county": "Erie County",
+    "service_area": "FILLMORE-LEROY",
+    "name": "Fillmore-Leroy Area Residents, Inc."
+  },
+  {
+    "county": "Erie County",
+    "service_area": "DOWNTOWN AREA, NEAR EAST SIDE, & LOWER WEST SIDE OF BUFFALO",
+    "name": "Heart Of The City Neighborhoods, Inc."
+  },
+  {
+    "county": "Erie County",
+    "service_area": "LOWER WESTSIDE",
+    "name": "Hispanos Unidos De Buffalo, Inc."
+  },
+  {
+    "county": "Erie County",
+    "service_area": "FIRST AND SECOND WARDS",
+    "name": "Lackawanna Housing Development Corporation"
+  },
+  {
+    "county": "Erie County",
+    "service_area": "BROADWAY-FILLMORE",
+    "name": "Lt. Col. Matt Urban Human Services Center Of Wny"
+  },
+  {
+    "county": "Erie County",
+    "service_area": "SOUTH BUFFALO",
+    "name": "Neighborhood Housing Services Of South Buffalo, Inc."
+  },
+  {
+    "county": "Erie County",
+    "service_area": "ALL CATTARAUGUS CO., SOUTHERN ERIE, SOUTHWESTERN WYOMING",
+    "name": "Neighborworks Home Resources"
+  },
+  {
+    "county": "Erie County",
+    "service_area": "OLD FIRST WARD",
+    "name": "Old 1St Ward Community Association, Inc."
+  },
+  {
+    "county": "Erie County",
+    "service_area": "SOUTH ERIE COUNTY",
+    "name": "Southtowns Rural Preservation Company, Inc."
+  },
+  {
+    "county": "Erie County",
+    "service_area": "WEST SIDE",
+    "name": "West Side Neighborhood Housing Services, Inc."
+  },
+  {
+    "county": "Kings County",
+    "service_area": "CONEY ISLAND",
+    "name": "Astella Development Corporation"
+  },
+  {
+    "county": "Kings County",
+    "service_area": "BRIGHTON BEACH",
+    "name": "Brighton Neighborhood Association Inc."
+  },
+  {
+    "county": "Kings County",
+    "service_area": "OCEAN PARKWAY/MIDWOOD JUNCTION",
+    "name": "Brooklyn Housing And Family Services, Inc."
+  },
+  {
+    "county": "Kings County",
+    "service_area": "CROWN HEIGHTS/PROSPECT HEIGHTS",
+    "name": "Brooklyn Neighborhood Improvement Association Inc."
+  },
+  {
+    "county": "Kings County",
+    "service_area": "REDHOOK/CARROLL GARDENS/COLUMBIA STREET/WATERFRONT",
+    "name": "Carroll Gardens Association, Inc."
+  },
+  {
+    "county": "Kings County",
+    "service_area": "BOROUGH PARK",
+    "name": "Community Organization Of Southern Brooklyn, Inc."
+  },
+  {
+    "county": "Kings County",
+    "service_area": "CROWN HEIGHTS",
+    "name": "Crown Heights Jewish Community Council, Inc."
+  },
+  {
+    "county": "Kings County",
+    "service_area": "CYPRESS HILLS/HIGHLAND",
+    "name": "Cypress Hills Local Development Corporation"
+  },
+  {
+    "county": "Kings County",
+    "service_area": "EAST NEW YORK",
+    "name": "East New York Urban Youth Corps Inc."
+  },
+  {
+    "county": "Kings County",
+    "service_area": "EAST FLATBUSH",
+    "name": "Erasmus Neighborhood Federation, Inc."
+  },
+  {
+    "county": "Kings County",
+    "service_area": "LOWER PARK SLOPE",
+    "name": "Fifth Avenue Committee, Inc."
+  },
+  {
+    "county": "Kings County",
+    "service_area": "FLATBUSH",
+    "name": "Flatbush Development Corp."
+  },
+  {
+    "county": "Kings County",
+    "service_area": "GOWANUS CANAL",
+    "name": "Gowanus Canal Community Development Corporation"
+  },
+  {
+    "county": "Kings County",
+    "service_area": "SHEEPSHEAD BAY",
+    "name": "Greater Sheepshead Bay Development Corp."
+  },
+  {
+    "county": "Kings County",
+    "service_area": "CROWN HEIGHTS",
+    "name": "Ldc Of Crown Heights"
+  },
+  {
+    "county": "Kings County",
+    "service_area": "SOUTHSIDE/WILLIAMSBURG",
+    "name": "Los Sures Community Development Company, Inc."
+  },
+  {
+    "county": "Kings County",
+    "service_area": "MIDWOOD",
+    "name": "Midwood Development Corp."
+  },
+  {
+    "county": "Kings County",
+    "service_area": "SUNSET PARK/SOUTH SLOPE",
+    "name": "Neighbors Helping Neighbors, Inc."
+  },
+  {
+    "county": "Kings County",
+    "service_area": "EAST FLATBUSH",
+    "name": "Nhs Of East Flatbush"
+  },
+  {
+    "county": "Kings County",
+    "service_area": "GREENPOINT",
+    "name": "North Brooklyn Development Corp."
+  },
+  {
+    "county": "Kings County",
+    "service_area": "OCEANHILL/BROWNSVILLE/CROWN HEIGHTS/BEDFORD STUYVESANT",
+    "name": "Northeast Brooklyn Housing Development Corp."
+  },
+  {
+    "county": "Kings County",
+    "service_area": "KENSINGTON/OCEAN PARKWAY",
+    "name": "Ocean Parkway Community Development Corp."
+  },
+  {
+    "county": "Kings County",
+    "service_area": "CLINTON HILL/FORT GREENE",
+    "name": "Pratt Area Community Council"
+  },
+  {
+    "county": "Kings County",
+    "service_area": "BUSHWICK",
+    "name": "Ridgewood Bushwick Senior Citizens Council, Inc."
+  },
+  {
+    "county": "Kings County",
+    "service_area": "CENTRAL WILLIAMSBURG/GREEN POINT",
+    "name": "St. Nicks Alliance Corp."
+  },
+  {
+    "county": "New York County",
+    "service_area": "EAST HARLEM AND EL BARRIO",
+    "name": "116 Street Block Association, Inc."
+  },
+  {
+    "county": "New York County",
+    "service_area": "CLINTON",
+    "name": "Clinton Housing Development Co. Inc."
+  },
+  {
+    "county": "New York County",
+    "service_area": "WASHINGTON HEIGHTS",
+    "name": "Community League Of The Heights"
+  },
+  {
+    "county": "New York County",
+    "service_area": "LOWER EAST SIDE",
+    "name": "Cooper Square Cd Committee & Businessmen'S Association, Inc."
+  },
+  {
+    "county": "New York County",
+    "service_area": "CHINATOWN/LOWER EASTSIDE",
+    "name": "Downtown Manhattan Community Development Corp."
+  },
+  {
+    "county": "New York County",
+    "service_area": "WEST AND CENTRAL HARLEM",
+    "name": "Ecumenical Community Development Organization"
+  },
+  {
+    "county": "New York County",
+    "service_area": "EAST HARLEM/EL BARRIO",
+    "name": "El Barrio'S Operation Fight-Back"
+  },
+  {
+    "county": "New York County",
+    "service_area": "LOWER EAST SIDE",
+    "name": "Good Old Lower East Side, Inc."
+  },
+  {
+    "county": "New York County",
+    "service_area": "EAST HARLEM",
+    "name": "Hellgate Management Corp."
+  },
+  {
+    "county": "New York County",
+    "service_area": "EAST HARLEM/EL BARRIO",
+    "name": "Hope Community, Inc."
+  },
+  {
+    "county": "New York County",
+    "service_area": "CLINTON",
+    "name": "Housing Conservation Coordinators, Inc."
+  },
+  {
+    "county": "New York County",
+    "service_area": "LOWER EAST SIDE",
+    "name": "Lower East Side Coalition Housing Development, Inc."
+  },
+  {
+    "county": "New York County",
+    "service_area": "MANHATTAN VALLEY",
+    "name": "Manhattan Valley Development Corporation"
+  },
+  {
+    "county": "New York County",
+    "service_area": "LOWER EAST SIDE",
+    "name": "Mfy Legal Services, Inc."
+  },
+  {
+    "county": "New York County",
+    "service_area": "WASHINGTON HEIGHTS/INWOOD",
+    "name": "Northern Manhattan Improvement Corp."
+  },
+  {
+    "county": "New York County",
+    "service_area": "EAST HARLEM",
+    "name": "Nuevo El Barrio Para La Rehab De La Vivienda Y La Economia"
+  },
+  {
+    "county": "New York County",
+    "service_area": "MANHATTAN VALLEY/CENTRAL AND EAST HARLEM",
+    "name": "Sinergia, Inc."
+  },
+  {
+    "county": "New York County",
+    "service_area": "UPPER WEST SIDE",
+    "name": "Strycker'S Bay Neighborhood Council"
+  },
+  {
+    "county": "New York County",
+    "service_area": "LOWER EASTSIDE",
+    "name": "United Jewish Council Of The East Side, Inc."
+  },
+  {
+    "county": "New York County",
+    "service_area": "WASHINGTON HEIGHTS/INWOOD",
+    "name": "Washington Heights Inwood Preservation And Restoration Corp."
+  },
+  {
+    "county": "New York County",
+    "service_area": "WEST HARLEM/HAMILTON HEIGHTS",
+    "name": "West Harlem Group Assistance, Inc."
+  },
+  {
+    "county": "New York County",
+    "service_area": "UPPER WESTSIDE",
+    "name": "West Side Federation For Senior And Supportive Housing, Inc."
+  },
+  {
+    "county": "New York County",
+    "service_area": "HAMILTON HEIGHTS",
+    "name": "Wilson Major Morris Community Center, Inc."
+  },
+  {
+    "county": "Queens County",
+    "service_area": "JAMAICA",
+    "name": "Allen Ame Neighborhood Preservation And Development Corp."
+  },
+  {
+    "county": "Queens County",
+    "service_area": "DITMARS/ASTORIA",
+    "name": "Astoria Restoration Association, Inc."
+  },
+  {
+    "county": "Queens County",
+    "service_area": "CENTRAL ASTORIA",
+    "name": "Central Astoria Local Development Coalition, Inc."
+  },
+  {
+    "county": "Queens County",
+    "service_area": "FAR ROCKAWAY",
+    "name": "Jewish Community Council Of The Rockaway Peninsula"
+  },
+  {
+    "county": "Queens County",
+    "service_area": "FAR ROCKAWAY/EDGEMERE",
+    "name": "Margert Community Corp."
+  },
+  {
+    "county": "Queens County",
+    "service_area": "CORONA, ELMHURST, & JACKSON HEIGHTS",
+    "name": "Neighborhood Housing Services Of Northern Queens"
+  },
+  {
+    "county": "Queens County",
+    "service_area": "JAMAICA",
+    "name": "Nhs Of Jamaica, Inc."
+  },
+  {
+    "county": "Queens County",
+    "service_area": "ASTORIA",
+    "name": "Northwest Queens Housing Corp."
+  },
+  {
+    "county": "Queens County",
+    "service_area": "FOREST HILLS, REGO PARK, CORONA & ELMHURST",
+    "name": "Queens Community House, Inc."
+  },
+  {
+    "county": "Queens County",
+    "service_area": "ROCKAWAY PENINSULA AND BROAD CHANNEL",
+    "name": "Rockaway Development & Revitalization Corp."
+  },
+  {
+    "county": "Queens County",
+    "service_area": "RIDGEWOOD/MASPETH/GLENDALE/MIDDLE VILLAGE",
+    "name": "The Greater Ridgewood Restoration Corporation"
+  },
+  {
+    "county": "Queens County",
+    "service_area": "WOODSIDE",
+    "name": "Woodside On The Move, Inc."
+  },
+  {
+    "county": "Richmond County",
+    "service_area": "WEST BRIGHTON",
+    "name": "Nhs Of Staten Island, Inc."
+  },
+  {
+    "county": "Richmond County",
+    "service_area": "PORT RICHMOND",
+    "name": "Northfield Community Local Development Corporation"
+  },
+  {
+    "county": "Richmond County",
+    "service_area": "NORTH SHORE",
+    "name": "Richmond Senior Services, Inc."
+  },
+  {
+    "county": "Rockland County",
+    "service_area": "VILLAGES IN ROCKLAND COUNTY",
+    "name": "Rcdc Housing, Inc."
+  },
+  {
+    "county": "Rockland County",
+    "service_area": "MONSEY",
+    "name": "Rockland County Development Council, Inc."
+  },
+  {
+    "county": "Westchester County",
+    "service_area": "PORT CHESTER",
+    "name": "Human Development Services Of Westchester"
+  },
+  {
+    "county": "Westchester County",
+    "service_area": "OSSINING'S INNER VILLAGE",
+    "name": "Interfaith Council For Action, Inc."
+  },
+  {
+    "county": "Westchester County",
+    "service_area": "SOUTH MOUNT VERNON",
+    "name": "Mount Vernon United Tenants"
+  },
+  {
+    "county": "Westchester County",
+    "service_area": "NORTHWEST YONKERS",
+    "name": "North Yonkers Preservation & Development Corp."
+  },
+  {
+    "county": "Westchester County",
+    "service_area": "CITY OF PEEKSKILL",
+    "name": "The Preservation Company, Inc."
+  },
+  {
+    "county": "Westchester County",
+    "service_area": "SOUNDSHORE AREA OF MAMARONECK & MAMARONECK CENTRAL BUSINESS DISTRICT",
+    "name": "Washingtonville Housing Alliance, Inc."
+  },
+  {
+    "county": "Westchester County",
+    "service_area": "SOUTHWEST YONKERS",
+    "name": "Westhab In Yonkers, Inc."
+  }
+]
