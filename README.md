@@ -1,6 +1,6 @@
 NY DHCR Community Housing Organization list information
 =========
-This is a script that pulls done information on the [New York Homes and Community Renewal](http://www.nyshcr.org/)'s list of [community housing organizations](http://www.nyshcr.org/Rent/HousingOrgs.htm) that are stuck in a not so useful HTML table with links to the organization details such as contact info, website, etc. 
+This is a script that pulls down information on the [New York Homes and Community Renewal](http://www.nyshcr.org/)'s list of [community housing based organizations](http://www.nyshcr.org/Rent/HousingOrgs.htm) that are currently stuck in a not so useful HTML table that contains links to the organization details such as contact info, website, service area, etc. 
 
 These orgs perform work related to affordable housing, community development and civil legal services in New York State and New York City. 
 
